@@ -1,0 +1,1759 @@
+
+--- Date: 2024-10-4 (Fri Oct 2024) UTC+02:00
+
+10:07:24.620         | //////////////////////////////////////////////////////////////////////////////
+10:07:24.620         | //
+10:07:24.620         | // Build: Crossout x64 2.19.10.291632 (Sep 25 2024 16:35:49)
+10:07:24.620         | // params: "A:\SteamLibrary\steamapps\common\Crossout\bin\win64\Crossout.exe" -lang  RUSSIAN -fromlauncher --no-relaunch  --aftermath A:\SteamLibrary\steamapps\common\Crossout\launcher.exe -steam
+10:07:24.620         | //
+10:07:24.620         | //////////////////////////////////////////////////////////////////////////////
+10:07:24.620         | 
+10:07:25.786         | Steam initialized appId 386180, userSteamID 76561197960972953, userName 'The Gayest Furry'
+10:07:29.781  WARNING| frame time of frame 1 within loading callback is too large (7.361827)
+10:07:31.858         | EasyAntiCheat::Client: Init result 0, message Служба Easy Anti-Cheat запущена
+10:07:32.160         | ====== starting level 1: 'levels/maps/mainmenu'  single env=-1 ======
+10:07:32.188         | ====== level started:  'mainmenu' ======
+10:07:32.644         | TargemService: RequestAuth: login '', auth 'STEAM', url 'https://crank.crossout.net/live'
+10:07:35.760         | server mods CVar 'ABTest.EnableTutorialPass' -> '1'
+10:07:35.760         | server mods CVar 'ABTest.TutorialBattlePassGroupA' -> 'TutorialBattlePass_V5_chest_0h'
+10:07:35.760         | server mods CVar 'ABTest.TutorialBattlePassGroupB' -> 'TutorialBattlePass_V5_chest_0h'
+10:07:35.760         | server mods CVar 'CarEditor.Autobuild.MinLevel' -> '6'
+10:07:35.760         | server mods CVar 'CarEditor.DecorationAnalytics' -> '1'
+10:07:35.760         | server mods CVar 'Client.Clan.Languages' -> 'english;russian;german;french;spanish;korean;japanese'
+10:07:35.760         | server mods CVar 'Client.Correction.Advanced.Enabled' -> '1'
+10:07:35.760         | server mods CVar 'Client.Correction.Advanced.OnlySpectator' -> '1'
+10:07:35.760         | server mods CVar 'CollectableRandomEntity.ExclusiveProbability' -> '0.08'
+10:07:35.760         | server mods CVar 'CollectableRandomEntity.MaxCount' -> '3'
+10:07:35.760         | server mods CVar 'CollectableRandomEntity.MinCount' -> '2'
+10:07:35.760         | server mods CVar 'Game.AfterLoginVideoDef' -> 'season24_03_teaser'
+10:07:35.760         | server mods CVar 'Game.CarEditorAnalytics' -> '1'
+10:07:35.760         | server mods CVar 'Game.ClanPvpEnabled' -> '1'
+10:07:35.760         | server mods CVar 'Game.HelicoptersEnabled' -> '1'
+10:07:35.760         | server mods CVar 'Game.QuestClanListChangeDate' -> '2023-09-03T15:59:00Z'
+10:07:35.760         | server mods CVar 'Game.QuestDayListChangeDate' -> '2024-04-19T00:00:00Z'
+10:07:35.760         | server mods CVar 'Game.QuestWeekListChangeDate' -> '2024-04-22T00:00:00Z'
+10:07:35.760         | server mods CVar 'Game.UnlockFreeObserverMode' -> '1'
+10:07:35.760         | server mods CVar 'GameUI.ChatChannelsDisabled' -> 'russian:novice;russian:partysearch;english:novice;english:partysearch;german:novice;german:partysearch;french:novice;french:partysearch;spanish:novice;spanish:partysearch'
+10:07:35.760         | server mods CVar 'GameUI.ShowCrystals' -> '1'
+10:07:35.760         | server mods CVar 'GameUI.ShowDecorExhibition' -> '1'
+10:07:35.760         | server mods CVar 'GameUI.ShowQuestsWndExCounters' -> '1'
+10:07:35.760         | server mods CVar 'GameUI.ShowVideoPresetsDetectSetting' -> '1'
+10:07:35.760         | server mods CVar 'GameUi.HandleEveryDpadPress' -> '1'
+10:07:35.760         | server mods CVar 'ah_arbiterFacadeUser' -> '94775'
+10:07:35.760         | server mods CVar 'ah_minSellPrice' -> '10'
+10:07:35.760         | server mods CVar 'bpe_maxDecorationDesignsExhibited' -> '6'
+10:07:35.760         | server mods CVar 'cl_enableUserProfileStats' -> '1'
+10:07:35.760         | server mods CVar 'cl_showJams' -> '1'
+10:07:35.760         | server mods CVar 'clanPvp_firstDay' -> '2023-08-20T16:00:00Z'
+10:07:35.760         | server mods CVar 'clanWars_firstDay' -> '2016-09-18T16:00:00Z'
+10:07:35.760         | server mods CVar 'clan_clanPvpRewardLockoutTime' -> '259200'
+10:07:35.760         | server mods CVar 'clan_leaderOfflineReelection' -> '30'
+10:07:35.760         | server mods CVar 'clan_minRequiredActivityPoints' -> '35;75;250;450;800'
+10:07:35.761         | server mods CVar 'gameui_debriefLikesMode' -> '2'
+10:07:35.761         | server mods CVar 'leviathan_subtypePowerThreshold' -> '26'
+10:07:35.761         | server mods CVar 'party_maxHelicoptersCount' -> '4'
+10:07:35.761         | server mods CVar 'sv_brawlConstructorV2' -> '1'
+10:07:35.761         | server mods CVar 'sv_circuit' -> 'live'
+10:07:35.761         | server mods CVar 'sv_customGameExtended' -> '1'
+10:07:35.761         | server mods CVar 'sv_dbgLeviathan' -> '1'
+10:07:35.761         | server mods CVar 'sv_disableVoiceChatService' -> '1'
+10:07:35.761         | server mods CVar 'user_2stepRestrictions' -> '1'
+10:07:35.761         | server mods CVar 'user_hangarVisitorsInterval' -> '28800'
+10:07:35.761         | server mods CVar 'user_hangarVisitorsNum' -> '5'
+10:07:35.761         | server mods CVar 'user_newPlayerAnalyticsCarEditor' -> '0'
+10:07:35.761         | server mods CVar 'user_newPlayerAnalyticsNumDays' -> '0'
+10:07:35.761         | server mods CVar 'user_newPlayerAnalyticsTestDrive' -> '0'
+10:07:35.761         | server mods CVar 'user_newPlayerAnalyticsWindowsAndTabs' -> '0'
+10:07:35.761         | server mods CVar 'user_tradeRegulatorMaxOrders' -> '5'
+10:07:35.761         | server mods CVar 'user_tradeRegulatorNewbieLevel' -> '5'
+10:07:35.761         | server mods CVar 'user_tradeRegulatorNewbieRestrictBuy' -> '1'
+10:07:35.761         | server mods CVar 'gameui_questsNewEventsMode' -> '1'
+10:07:35.761         | Auth success: token ntKKAAAAAAC8hnaKG5J-myBfrVaSAQAAIeYhVwRub25lBGxpdmU, uid 9097886, server time 2024-10-04T08:07:35.682Z (drift of 0 sec)
+10:07:36.660         | TSConnectionManager::StateNEGOTIATING: SoContainer login complete
+10:07:36.969         | DataStorage: set data with type='chat_decoration_settings' version='3739'
+10:07:36.969         | DataStorage: set data with type='legacy_news_feed' version='3798'
+10:07:36.969         | DataStorage: set data with type='weekend_schedule' version='4010'
+10:07:36.969         | DataStorage: set data with type='ranked_events' version='3994'
+10:07:36.969         | DataStorage: set data with type='leaderboards_settings' version='4009'
+10:07:36.970         | DataStorage: set data with type='contest_settings' version='3333'
+10:07:36.970         | DataStorage: set data with type='fusion_erase_event' version='3553'
+10:07:36.970         | DataStorage: set data with type='fusion_events' version='3653'
+10:07:36.970         | DataStorage: set data with type='collection_fusion_event' version='2578'
+10:07:36.970         | DataStorage: set data with type='blueprint_jam_settings' version='3740'
+10:07:36.970         | DataStorage: set data with type='queue_settings' version='3990'
+10:07:36.970         | DataStorage: set data with type='custom_game_data' version='3979'
+10:07:36.970         | DataStorage: set data with type='brawl_service_settings' version='3470'
+10:07:36.970         | DataStorage: set data with type='mission_schedule' version='4004'
+10:07:36.970         | DataStorage: set data with type='queue_rotation' version='3991'
+10:07:36.971         | DataStorage: set data with type='auction_goods_hold' version='2477'
+10:07:36.971         | DataStorage: set data with type='auction_price_limitations' version='2311'
+10:07:36.971         | DataStorage: set data with type='shop_items' version='4014'
+10:07:36.971         | DataStorage: set data with type='ingame_shop_items' version='4013'
+10:07:36.973         | DataStorage: set data with type='ingame_offers' version='2504'
+10:07:36.973         | DataStorage: set data with type='hidden_emo_item' version='3769'
+10:07:36.973         | DataStorage: set data with type='forbidden_goods' version='3975'
+10:07:36.973         | DataStorage: set data with type='battle_pass' version='1333'
+10:07:36.974         | DataStorage: set data with type='unavailable_recipe' version='3963'
+10:07:36.974         | DataStorage: set data with type='new_recipes_data' version='1183'
+10:07:36.974         | DataStorage: set data with type='faction_war' version='2960'
+10:07:36.974         | DataStorage: set data with type='craftsman_config' version='3153'
+10:07:36.974         | DataStorage: set data with type='aim_assist_ab_test' version='2756'
+10:07:37.444         | TSConnectionManager::StateNEGOTIATING: complete
+10:07:37.444         | TargemService:OnGoingOnline: uid 9097886, nickName 'RDSF0R_', sessionId 1461839393, serverTime 2024-10-04T08:07:37Z, countryCode 'RU'
+10:07:48.063         | ====== starting level 2: 'levels/maps/hangar'  single Empty,env=394058 ======
+10:07:48.063         | {
+10:07:48.063         | 	"is_hangar": 1
+10:07:48.063         | 	"after_login": true
+10:07:48.063         | }
+10:07:48.751         | ====== level started:  'hangar' ======
+10:08:07.032         | Stored mission name: Machinegun
+10:08:07.032         | StartMatchmaking: 'solo', mission 'Machinegun', region 'UNKNOWN'
+10:08:07.427         | Stored mission name: Machinegun
+10:08:07.860         | Matchmaker_NotifyQueueState: 30 avg queue time sec, queueTag: Default, inQueue: true
+10:08:11.585         | Matchmaker_NotifyQueueState: 34 avg queue time sec, queueTag: Default, inQueue: true
+10:08:15.560         | Matchmaker_NotifyQueueState: 41 avg queue time sec, queueTag: Default, inQueue: true
+10:08:19.611         | Matchmaker_NotifyQueueState: 34 avg queue time sec, queueTag: Default, inQueue: true
+10:08:23.627         | Matchmaker_NotifyQueueState: 28 avg queue time sec, queueTag: Default, inQueue: true
+10:08:42.532         | Stored mission name: CoopVsAi
+10:08:42.532         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+10:08:42.936         | Stored mission name: CoopVsAi
+10:08:44.135         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:08:47.836         | Matchmaker_NotifyQueueState: 30 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:08:51.802         | Matchmaker_NotifyQueueState: 27 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:08:54.827         | Matchmaker_NotifyQueueState: 34 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:08:58.786         | Matchmaker_NotifyQueueState: 64 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:09:01.785         | Matchmaker_NotifyQueueState: 46 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+10:09:03.094         | CL_MatchMaker::ConnectHandler: addr = 185.206.164.117:35021, gsid = 605633272
+10:09:03.188         | client: start connecting to 185.206.164.117:35021...
+10:09:03.377         | client: connected to 185.206.164.117|35021, server guid '1728029338837269', client guid '441353450903242024', setting up session...
+10:09:03.461         | client: connected to dedicated server. gsid: 605633272, hostname: 'wheel02-ya-ru.pxo'
+10:09:03.568         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+10:09:03.568         | client: server assigned id 2
+10:09:03.578         | client: got level load message 'levels/maps/the_wall' ConquerCoopVsAi, levelId: 1
+10:09:03.637         | ====== starting level 3: 'levels/maps/the_wall' ConquerCoopVsAi client Empty,env=185943 ======
+10:09:03.638         | {
+10:09:03.638         | 	"minUR": 4705
+10:09:03.638         | 	"maxUR": 5525
+10:09:03.638         | 	"queueTag": CoopVsAi
+10:09:03.638         | 	"fixedMMValue": 0
+10:09:03.638         | }
+10:09:06.248         | client: send ready message
+10:09:06.402         | client: ADD_PLAYER  0       Tiliverdoh, uid 165752 status Reserved team 1
+10:09:06.402         | client: ADD_PLAYER  1           jogiqq, uid 13471370 status Reserved team 1
+10:09:06.403         | client: ADD_PLAYER  2          RDSF0R_, uid 9097886 status Reserved team 1
+10:09:06.403         | client: ADD_PLAYER  3      DeD___Pixto, uid 3071371 status   Active team 1
+10:09:06.461         | client: ADD_PLAYER 16             Andy, uid 0 status   Active team 1
+10:09:06.461         | client: ADD_PLAYER 17           Robert, uid 0 status   Active team 2
+10:09:06.461         | client: ADD_PLAYER 18          Madison, uid 0 status   Active team 1
+10:09:06.461         | client: ADD_PLAYER 19            Sarah, uid 0 status   Active team 2
+10:09:06.461         | client: ADD_PLAYER 20          William, uid 0 status   Active team 1
+10:09:06.461         | client: ADD_PLAYER 21           Joseph, uid 0 status   Active team 2
+10:09:06.463         | client: ADD_PLAYER 22             Adam, uid 0 status   Active team 1
+10:09:06.514         | client: ADD_PLAYER 23             Alec, uid 0 status   Active team 2
+10:09:06.514         | client: ADD_PLAYER 25            Joern, uid 0 status   Active team 2
+10:09:06.514         | client: ADD_PLAYER 27           Sandra, uid 0 status   Active team 2
+10:09:06.514         | client: ADD_PLAYER 29         Florence, uid 0 status   Active team 2
+10:09:06.514         | client: ADD_PLAYER 31         Isabella, uid 0 status   Active team 2
+10:09:06.515         | client: UPDATE_PLAYER  2          RDSF0R_, uid 9097886 status   Active team 1
+10:09:07.015         | client: got init message. ping 104, MTU 1350
+10:09:07.015         | client: UPDATE_PLAYER  0       Tiliverdoh, uid 165752 status   Active team 1
+10:09:07.015         | client: UPDATE_PLAYER  1           jogiqq, uid 13471370 status   Active team 1
+10:09:07.368         | ====== level started:  'the_wall' ======
+10:09:07.453         | client: player 22 leave game
+10:09:07.454         | client: ADD_PLAYER  4      babenkoa839, uid 14306587 status Reserved team 1
+10:09:10.445         | client: UPDATE_PLAYER  4      babenkoa839, uid 14306587 status   Active team 1
+10:10:17.596         | Quest_Completed callback. questName = 'Daily_2_WinsPvpHelicopter1'
+10:10:17.596         | Quest_Completed callback. questName = 'Daily_6_Quests1'
+10:10:17.597         | Gameplay statistic. gameResult 'victory'
+10:10:17.597         |      Scrap_Common  10,  score 1362, expBase 1250, expDailyBonus 4.0, expTotal 3906, expBaseFactionTotal 3906, expFactionTotal 3906
+10:10:17.597         |      quest Daily_2_WinsPvpHelicopter1: 1 / 2 -> 2 / 2
+10:10:17.597         |      quest Daily_3_DamageDone2: 0 / 20000 -> 2938 / 20000
+10:10:17.597         |      quest Daily_6_Quests1: 2 / 3 -> 3 / 3
+10:10:17.597         |      quest Solo_Weekly_Daily_Quests_1: 13 / 20 -> 15 / 20
+10:10:17.597         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 4 / 10 -> 5 / 10
+10:10:17.597         |      quest Quest_detach_pvp_500: 298 / 500 -> 402 / 500
+10:10:17.597         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 3805 / 15000 -> 4718 / 15000
+10:10:17.597         |      quest Quest_kill_pvp_30: 17 / 30 -> 23 / 30
+10:10:17.597         |      quest Quest_win_all_pvp_3: 1 / 3 -> 2 / 3
+10:10:17.597         |      quest Quest_earn_score_repeat_all_pvp_3_550: 0 / 3 -> 1 / 3
+10:10:17.597         |      quest Clan_Weekly_Quest_Win_Pvp_2: 98 / 200 -> 99 / 200
+10:10:17.597         |      quest Clan_Weekly_Quest_Win_Pvp_3: 98 / 500 -> 99 / 500
+10:10:17.597         |      quest Clan_Weekly_Quest_Win_Pvp_4: 98 / 800 -> 99 / 800
+10:10:17.597         |      quest Clan_Weekly_Quest_Win_Pvp_5: 98 / 1000 -> 99 / 1000
+10:10:17.597         |      quest Clan_Weekly_Quest_Damage_2: 1402710 / 2000000 -> 1405648 / 2000000
+10:10:17.597         |      quest Clan_Weekly_Quest_Damage_3: 1402710 / 6000000 -> 1405648 / 6000000
+10:10:17.597         |      quest Clan_Weekly_Quest_Damage_4: 1402710 / 10000000 -> 1405648 / 10000000
+10:10:17.597         |      quest Clan_Weekly_Quest_Damage_5: 1402710 / 15000000 -> 1405648 / 15000000
+10:10:23.420         | client: player 3 leave game
+10:10:24.678         | client: player 0 leave game
+10:10:25.894         | client: player 4 leave game
+10:10:31.044         | client: player 1 leave game
+10:12:20.435         | client: avgPing 55.4/104.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+10:12:20.435         | client: connection closed. CLIENT_QUIT
+10:12:20.435         | Network stats (bytes per second): avg pushed 1982, max pushed 3523, avg sent 3556, max sent 6140, avg received 10284, max received 25725
+10:12:20.716         | ====== starting level 4: 'levels/maps/hangar'  single Empty,env=394058 ======
+10:12:20.716         | {
+10:12:20.716         | 	"is_hangar": 1
+10:12:20.716         | }
+10:12:21.454         | ====== level started:  'hangar' ======
+10:12:36.835         | Stored mission name: Brawl_FieldBattle_May9
+10:12:36.835         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+10:12:37.435         | Stored mission name: Brawl_FieldBattle_May9
+10:12:38.143         | Matchmaker_NotifyQueueState: 33 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:41.835         | Matchmaker_NotifyQueueState: 26 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:44.868         | Matchmaker_NotifyQueueState: 35 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:48.827         | Matchmaker_NotifyQueueState: 32 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:51.860         | Matchmaker_NotifyQueueState: 32 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:54.885         | Matchmaker_NotifyQueueState: 12 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:12:56.210         | CL_MatchMaker::ConnectHandler: addr = 89.169.154.85:35556, gsid = 605633490
+10:12:56.250         | client: start connecting to 89.169.154.85:35556...
+10:12:56.418         | client: connected to 89.169.154.85|35556, server guid '1728029567049444', client guid '441353450903242024', setting up session...
+10:12:56.485         | client: connected to dedicated server. gsid: 605633490, hostname: 'wheel02-ya-ru.pxo/live-5p762-tq8hl'
+10:12:56.551         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+10:12:56.551         | client: server assigned id 8
+10:12:56.560         | client: got level load message 'levels/maps/shipyard_battle' Brawl_FieldBattle, levelId: 1
+10:12:56.620         | ====== starting level 5: 'levels/maps/shipyard_battle' Brawl_FieldBattle client Empty,env=858779 ======
+10:12:56.620         | {
+10:12:56.620         | 	"minUR": 2019
+10:12:56.620         | 	"maxUR": 14047
+10:12:56.620         | 	"queueTag": Brawl_FieldBattle_May9
+10:12:56.620         | 	"fixedMMValue": 1
+10:12:56.620         | }
+10:13:02.754         | client: send ready message
+10:13:02.838         | client: ADD_PLAYER  0   education76110, uid 14225853 status   Active team 2
+10:13:02.898         | client: ADD_PLAYER  1         fabi_232, uid 14348052 status   Active team 2
+10:13:02.898         | client: ADD_PLAYER  2            Akabu, uid 135874 status   Active team 1
+10:13:02.898         | client: ADD_PLAYER  3       BIDJO45695, uid 10336679 status   Active team 2
+10:13:02.898         | client: ADD_PLAYER  4   12323132123412, uid 5638927 status   Active team 1
+10:13:02.898         | client: ADD_PLAYER  5       Tankist#12, uid 13910332 status   Active team 2
+10:13:02.949         | client: ADD_PLAYER  6       User439985, uid 11753292 status   Active team 2
+10:13:02.961         | client: ADD_PLAYER  7 danilka_shevchen, uid 12691976 status Reserved team 1
+10:13:02.961         | client: ADD_PLAYER  8          RDSF0R_, uid 9097886 status Reserved team 2
+10:13:02.961         | client: ADD_PLAYER  9             ZRAA, uid 7105170 status   Active team 1
+10:13:02.961         | client: ADD_PLAYER 10 Я и бал Принцесс, uid 2812736 status   Active team 2
+10:13:02.961         | client: ADD_PLAYER 11     _Holy_Father, uid 12677703 status Reserved team 1
+10:13:02.961         | client: ADD_PLAYER 12     Positiff_Pff, uid 6195822 status   Active team 2
+10:13:02.961         | client: ADD_PLAYER 13          xps1987, uid 10755596 status   Active team 1
+10:13:02.961         | client: ADD_PLAYER 14     katuni_ashot, uid 12736419 status   Active team 1
+10:13:03.009         | client: ADD_PLAYER 15          amokk13, uid 8756222 status   Active team 1
+10:13:03.009         | client: UPDATE_PLAYER  8          RDSF0R_, uid 9097886 status   Active team 2
+10:13:03.009         | client: got init message. ping 50, MTU 1350
+10:13:03.013         | ====== level started:  'shipyard_battle' ======
+10:13:07.742         | client: UPDATE_PLAYER 11     _Holy_Father, uid 12677703 status   Active team 1
+10:13:08.426         | client: UPDATE_PLAYER  7 danilka_shevchen, uid 12691976 status   Active team 1
+10:18:27.395         | Quest_Completed callback. questName = 'Quest_win_all_pvp_3'
+10:18:27.396         | Gameplay statistic. gameResult 'victory'
+10:18:27.396         |      Scrap_Common  62,  score 1057, expBase 1057, expDailyBonus 4.0, expTotal 2642, expBaseFactionTotal 2642, expFactionTotal 2642
+10:18:27.396         |      quest Quest_23feb_2020_detach: 0 / 250 -> 161 / 250
+10:18:27.396         |      quest Daily_2_WinsPvpHelicopter2: 0 / 3 -> 1 / 3
+10:18:27.396         |      quest Daily_3_DamageDone2: 2938 / 20000 -> 11678 / 20000
+10:18:27.396         |      quest Solo_Weekly_Brawls_Score: 4544 / 8000 -> 5601 / 8000
+10:18:27.396         |      quest Quest_win_all_pvp_3: 2 / 3 -> 3 / 3
+10:18:27.396         |      quest Quest_earn_score_repeat_all_pvp_3_550: 1 / 3 -> 2 / 3
+10:18:27.396         |      quest Clan_Weekly_Quest_Win_Pvp_2: 99 / 200 -> 100 / 200
+10:18:27.396         |      quest Clan_Weekly_Quest_Win_Pvp_3: 99 / 500 -> 100 / 500
+10:18:27.396         |      quest Clan_Weekly_Quest_Win_Pvp_4: 99 / 800 -> 100 / 800
+10:18:27.396         |      quest Clan_Weekly_Quest_Win_Pvp_5: 99 / 1000 -> 100 / 1000
+10:18:27.396         |      quest Clan_Weekly_Quest_Damage_2: 1405648 / 2000000 -> 1414388 / 2000000
+10:18:27.396         |      quest Clan_Weekly_Quest_Damage_3: 1405648 / 6000000 -> 1414388 / 6000000
+10:18:27.396         |      quest Clan_Weekly_Quest_Damage_4: 1405648 / 10000000 -> 1414388 / 10000000
+10:18:27.396         |      quest Clan_Weekly_Quest_Damage_5: 1405648 / 15000000 -> 1414388 / 15000000
+10:18:27.801  WARNING| server_fps [ 2024-10-04T08:18:27.715Z ]:  29 29 29 30 30 30 29 29 29 29 30 30 30 29 29 30 30 30 29 29 29 30 29 29 29 30 29 30 30 21 30 30 29 29 29 29 30 29 30 29
+10:18:33.051         | client: player 9 leave game
+10:18:33.459         | client: player 7 leave game
+10:18:33.759         | client: player 11 leave game
+10:18:34.376         | client: player 2 leave game
+10:18:34.443         | client: player 15 leave game
+10:18:34.977         | client: player 13 leave game
+10:18:35.151         | client: player 1 leave game
+10:18:35.359         | client: player 14 leave game
+10:18:35.360         | client: player 4 leave game
+10:18:36.676         | client: player 6 leave game
+10:18:36.709         | client: player 12 leave game
+10:18:37.418         | client: player 0 leave game
+10:18:38.709         | client: avgPing 50.2/54.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+10:18:38.709         | client: connection closed. MANUALLY_RETURN_TO_MATCHMACKER
+10:18:38.709         | Network stats (bytes per second): avg pushed 2652, max pushed 3467, avg sent 4643, max sent 5893, avg received 17517, max received 25778
+10:18:38.923         | ====== starting level 6: 'levels/maps/hangar'  single Empty,env=394058 ======
+10:18:38.923         | {
+10:18:38.923         | 	"is_hangar": 1
+10:18:38.923         | 	"return_to_MM": 1
+10:18:38.923         | }
+10:18:39.765         | ====== level started:  'hangar' ======
+10:18:39.811         | Gameui. try to reenter into matchmaking queue, mission 'Brawl_FieldBattle_May9'
+10:18:39.811         | ResetReturnToMatchmaking: setting up mode MISSION_SELECT
+10:18:39.836         | Stored mission name: Brawl_FieldBattle_May9
+10:18:39.836         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+10:18:40.500         | Stored mission name: Brawl_FieldBattle_May9
+10:18:41.276         | Matchmaker_NotifyQueueState: 45 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:18:44.892         | Matchmaker_NotifyQueueState: 29 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:18:48.858         | Matchmaker_NotifyQueueState: 15 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:18:51.909         | Matchmaker_NotifyQueueState: 10 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:18:54.275         | CL_MatchMaker::ConnectHandler: addr = 89.169.132.47:35160, gsid = 605633840
+10:18:54.312         | client: start connecting to 89.169.132.47:35160...
+10:18:54.483         | client: connected to 89.169.132.47|35160, server guid '1728029923172210', client guid '441353450903242024', setting up session...
+10:18:54.566         | client: connected to dedicated server. gsid: 605633840, hostname: 'wheel01-ya-ru.pxo/live-5p762-b5mql'
+10:18:54.633         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+10:18:54.633         | client: server assigned id 10
+10:18:54.642         | client: got level load message 'levels/maps/shipyard_battle' Brawl_FieldBattle, levelId: 1
+10:18:54.706         | ====== starting level 7: 'levels/maps/shipyard_battle' Brawl_FieldBattle client Empty,env=824223 ======
+10:18:54.706         | {
+10:18:54.706         | 	"minUR": 2066
+10:18:54.706         | 	"maxUR": 16339
+10:18:54.706         | 	"queueTag": Brawl_FieldBattle_May9
+10:18:54.706         | 	"fixedMMValue": 1
+10:18:54.706         | }
+10:18:54.937         | Matchmaker_NotifyQueueState: 21 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: false
+10:18:55.860         | client: send ready message
+10:18:55.927         | client: ADD_PLAYER  0     katuni_ashot, uid 12736419 status Reserved team 2
+10:18:55.984         | client: ADD_PLAYER  1         SERJ_007, uid 12025950 status   Active team 2
+10:18:55.984         | client: ADD_PLAYER  2        ПАВУK, uid 3685287 status   Active team 1
+10:18:55.984         | client: ADD_PLAYER  3     пастам, uid 3946148 status   Active team 2
+10:18:55.984         | client: ADD_PLAYER  4         karog124, uid 1031979 status   Active team 1
+10:18:55.984         | client: ADD_PLAYER  5            aj490, uid 8384232 status   Active team 1
+10:18:56.032         | client: ADD_PLAYER  6         Trubachd, uid 14337563 status Reserved team 2
+10:18:56.032         | client: ADD_PLAYER  7   tlauncher22801, uid 14347474 status Reserved team 1
+10:18:56.032         | client: ADD_PLAYER  8 danilka_shevchen, uid 12691976 status Reserved team 1
+10:18:56.032         | client: ADD_PLAYER  9     _Holy_Father, uid 12677703 status Reserved team 2
+10:18:56.032         | client: ADD_PLAYER 10          RDSF0R_, uid 9097886 status Reserved team 1
+10:18:56.044         | client: ADD_PLAYER 11       BIDJO45695, uid 10336679 status   Active team 2
+10:18:56.044         | client: ADD_PLAYER 12           Лир, uid 6221095 status Reserved team 1
+10:18:56.044         | client: ADD_PLAYER 13      IIaJIa4_M4C, uid 2963867 status Reserved team 2
+10:18:56.044         | client: ADD_PLAYER 14 Я и бал Принцесс, uid 2812736 status   Active team 1
+10:18:56.044         | client: ADD_PLAYER 15          PavelMz, uid 12073359 status   Active team 2
+10:18:56.092         | client: UPDATE_PLAYER 10          RDSF0R_, uid 9097886 status   Active team 1
+10:18:56.092         | client: got init message. ping 48, MTU 1350
+10:18:56.092         | client: UPDATE_PLAYER 13      IIaJIa4_M4C, uid 2963867 status   Active team 2
+10:18:56.092         | client: UPDATE_PLAYER  6         Trubachd, uid 14337563 status   Active team 2
+10:18:56.092         | client: UPDATE_PLAYER  0     katuni_ashot, uid 12736419 status   Active team 2
+10:18:56.096         | ====== level started:  'shipyard_battle' ======
+10:18:56.709         | client: UPDATE_PLAYER  8 danilka_shevchen, uid 12691976 status   Active team 1
+10:18:59.592         | client: UPDATE_PLAYER  9     _Holy_Father, uid 12677703 status   Active team 2
+10:19:02.233         | client: UPDATE_PLAYER 12           Лир, uid 6221095 status   Active team 1
+10:19:03.157         | client: UPDATE_PLAYER  7   tlauncher22801, uid 14347474 status   Active team 1
+10:22:36.201         | TargemServices: RenewAuth: new token = ntKKAAAAAADDyMeDNQEJGYYcu1aSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T08:22:36.136Z (drift of 0 sec)
+10:23:24.269         | Gameplay statistic. gameResult 'victory'
+10:23:24.269         |      Scrap_Common  60,  score 519, expBase 519, expDailyBonus 4.0, expTotal 1297, expBaseFactionTotal 1297, expFactionTotal 1297
+10:23:24.269         |      quest Quest_23feb_2020_detach: 161 / 250 -> 247 / 250
+10:23:24.269         |      quest Daily_2_WinsPvpHelicopter2: 1 / 3 -> 2 / 3
+10:23:24.269         |      quest Daily_3_DamageDone2: 11678 / 20000 -> 18128 / 20000
+10:23:24.269         |      quest Solo_Weekly_Brawls_Score: 5601 / 8000 -> 6120 / 8000
+10:23:24.269         |      quest Clan_Weekly_Quest_Win_Pvp_2: 100 / 200 -> 101 / 200
+10:23:24.269         |      quest Clan_Weekly_Quest_Win_Pvp_3: 100 / 500 -> 101 / 500
+10:23:24.269         |      quest Clan_Weekly_Quest_Win_Pvp_4: 100 / 800 -> 101 / 800
+10:23:24.269         |      quest Clan_Weekly_Quest_Win_Pvp_5: 100 / 1000 -> 101 / 1000
+10:23:24.269         |      quest Clan_Weekly_Quest_Damage_2: 1414388 / 2000000 -> 1420838 / 2000000
+10:23:24.269         |      quest Clan_Weekly_Quest_Damage_3: 1414388 / 6000000 -> 1420838 / 6000000
+10:23:24.269         |      quest Clan_Weekly_Quest_Damage_4: 1414388 / 10000000 -> 1420838 / 10000000
+10:23:24.269         |      quest Clan_Weekly_Quest_Damage_5: 1414388 / 15000000 -> 1420838 / 15000000
+10:23:24.417         | RankedEventRewardNotification for event 'fieldbattle_Relaunch_2024_2', league '1'
+10:23:24.693  WARNING| server_fps [ 2024-10-04T08:23:24.619Z ]:  30 30 29 30 30 29 29 29 30 30 30 29 29 30 30 29 29 29 29 30 29 30 30 29 29 29 30 30 29 23 30 30 30 29 30 29 30 29 30 29
+10:23:29.984         | client: player 0 leave game
+10:23:29.984         | client: player 2 leave game
+10:23:30.217         | client: player 3 leave game
+10:23:30.217         | client: player 4 leave game
+10:23:30.725         | client: player 9 leave game
+10:23:30.892         | client: player 1 leave game
+10:23:31.067         | client: player 6 leave game
+10:23:31.101         | client: player 15 leave game
+10:23:32.593         | client: player 14 leave game
+10:23:33.168         | client: player 11 leave game
+10:23:33.376         | client: player 7 leave game
+10:23:37.175         | client: avgPing 47.9/54.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+10:23:37.175         | client: connection closed. CLIENT_QUIT
+10:23:37.175         | Network stats (bytes per second): avg pushed 2625, max pushed 3513, avg sent 4643, max sent 6025, avg received 18568, max received 35510
+10:23:37.377         | ====== starting level 8: 'levels/maps/hangar'  single Empty,env=394058 ======
+10:23:37.377         | {
+10:23:37.377         | 	"is_hangar": 1
+10:23:37.377         | }
+10:23:38.190         | ====== level started:  'hangar' ======
+10:23:59.209         | Quest_Completed callback. questName = 'Daily_5_Market'
+10:24:10.426         | NotifyStripeEarned: 9097886@live, TradeSellScrapLow, 1
+10:24:27.196  WARNING| frame 118417: 106 ms spike
+10:24:30.925         | Stored mission name: Brawl_FieldBattle_May9
+10:24:30.926         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+10:24:31.491         | Stored mission name: Brawl_FieldBattle_May9
+10:24:32.275         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:35.408         | Stored mission name: Brawl_FieldBattle_May9
+10:24:35.408         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+10:24:35.833         | Stored mission name: Brawl_FieldBattle_May9
+10:24:35.942         | Matchmaker_NotifyQueueState: 14 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:39.925         | Matchmaker_NotifyQueueState: 25 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:42.942         | Matchmaker_NotifyQueueState: 24 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:45.941         | Matchmaker_NotifyQueueState: 22 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:49.934         | Matchmaker_NotifyQueueState: 24 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+10:24:50.358         | CL_MatchMaker::ConnectHandler: addr = 185.206.164.117:35007, gsid = 605634179
+10:24:50.395         | client: start connecting to 185.206.164.117:35007...
+10:24:50.574         | client: connected to 185.206.164.117|35007, server guid '1728030285957315', client guid '441353450903242024', setting up session...
+10:24:50.649         | client: connected to dedicated server. gsid: 605634179, hostname: 'wheel02-ya-ru.pxo'
+10:24:50.725         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+10:24:50.725         | client: server assigned id 7
+10:24:50.734         | client: got level load message 'levels/maps/fieldbattle' Brawl_FieldBattle, levelId: 1
+10:24:50.797         | ====== starting level 9: 'levels/maps/fieldbattle' Brawl_FieldBattle client Empty,env=858779 ======
+10:24:50.797         | {
+10:24:50.797         | 	"minUR": 2611
+10:24:50.797         | 	"maxUR": 13730
+10:24:50.797         | 	"queueTag": Brawl_FieldBattle_May9
+10:24:50.797         | 	"fixedMMValue": 1
+10:24:50.797         | }
+10:24:54.297         | client: send ready message
+10:24:54.465         | client: ADD_PLAYER  0          CrocHub, uid 13404045 status   Active team 1
+10:24:54.465         | client: ADD_PLAYER  1         AUTOARMS, uid 5724699 status   Active team 2
+10:24:54.465         | client: ADD_PLAYER  2         Darfari_, uid 7169343 status   Active team 2
+10:24:54.465         | client: ADD_PLAYER  3     FB _ Pakimon, uid 14338510 status Reserved team 1
+10:24:54.465         | client: ADD_PLAYER  4        LonTalifa, uid 13662581 status   Active team 1
+10:24:54.515         | client: ADD_PLAYER  5           KLOTIC, uid 23824 status   Active team 1
+10:24:54.515         | client: ADD_PLAYER  6      Darksi_JoJo, uid 2187667 status   Active team 2
+10:24:54.515         | client: ADD_PLAYER  7          RDSF0R_, uid 9097886 status Reserved team 1
+10:24:54.515         | client: ADD_PLAYER  8 danilka_shevchen, uid 12691976 status Reserved team 2
+10:24:54.515         | client: ADD_PLAYER  9           uut65w, uid 13716998 status   Active team 2
+10:24:54.515         | client: ADD_PLAYER 10      OM_Narayana, uid 11850561 status   Active team 1
+10:24:54.515         | client: ADD_PLAYER 11           Alovdm, uid 3448203 status   Active team 2
+10:24:54.515         | client: ADD_PLAYER 12     ksandr300389, uid 14209434 status   Active team 1
+10:24:54.515         | client: ADD_PLAYER 13      Fagost97963, uid 13146645 status Reserved team 2
+10:24:54.570         | client: ADD_PLAYER 14           onix#3, uid 14088379 status   Active team 1
+10:24:54.570         | client: ADD_PLAYER 15 SYPER_grysha -_-, uid 14192941 status   Active team 2
+10:24:54.571         | client: UPDATE_PLAYER  7          RDSF0R_, uid 9097886 status   Active team 1
+10:24:54.571         | client: got init message. ping 52, MTU 1350
+10:24:54.576         | ====== level started:  'fieldbattle' ======
+10:24:54.743         | client: UPDATE_PLAYER  8 danilka_shevchen, uid 12691976 status   Active team 2
+10:24:56.508         | client: UPDATE_PLAYER 13      Fagost97963, uid 13146645 status   Active team 2
+10:25:50.092         | client: RESET_RESERVED_PLAYER  3     FB _ Pakimon, uid 14338510@live status Reserved team 1
+10:25:57.926         | client: ADD_PLAYER  3        fair3335e, uid 1677866 status Reserved team 1
+10:26:07.126         | client: UPDATE_PLAYER  3        fair3335e, uid 1677866 status   Active team 1
+10:30:07.133         | client: player 13 leave game
+10:30:44.576         | client: player 3 leave game
+10:31:46.434         | Quest_Completed callback. questName = 'Quest_23feb_2020_detach'
+10:31:46.434         | Quest_Completed callback. questName = 'Daily_3_DamageDone2'
+10:31:46.434         | Quest_Completed callback. questName = 'Solo_Weekly_Brawls_Score'
+10:31:46.434         | Quest_Completed callback. questName = 'Quest_earn_score_repeat_all_pvp_3_550'
+10:31:46.443         | Gameplay statistic. gameResult 'defeat'
+10:31:46.443         |      Scrap_Common  45,  score 1882, expBase 1283, expDailyBonus 4.0, expTotal 3207, expBaseFactionTotal 3207, expFactionTotal 3207
+10:31:46.443         |      quest Quest_23feb_2020_detach: 247 / 250 -> 250 / 250
+10:31:46.443         |      quest Daily_3_DamageDone2: 18128 / 20000 -> 20000 / 20000
+10:31:46.443         |      quest Daily_6_Quests2: 1 / 4 -> 2 / 4
+10:31:46.443         |      quest Solo_Weekly_Daily_Quests_1: 16 / 20 -> 17 / 20
+10:31:46.443         |      quest Solo_Weekly_Brawls_Score: 6120 / 8000 -> 8000 / 8000
+10:31:46.443         |      quest Quest_earn_score_repeat_all_pvp_3_550: 2 / 3 -> 3 / 3
+10:31:46.443         |      quest Clan_Weekly_Quest_Damage_2: 1420838 / 2000000 -> 1431382 / 2000000
+10:31:46.443         |      quest Clan_Weekly_Quest_Damage_3: 1420838 / 6000000 -> 1431382 / 6000000
+10:31:46.444         |      quest Clan_Weekly_Quest_Damage_4: 1420838 / 10000000 -> 1431382 / 10000000
+10:31:46.444         |      quest Clan_Weekly_Quest_Damage_5: 1420838 / 15000000 -> 1431382 / 15000000
+10:31:48.868         | client: player 0 leave game
+10:31:52.325         | client: player 4 leave game
+10:31:52.699         | client: player 9 leave game
+10:31:52.699         | client: player 10 leave game
+10:31:52.933         | client: player 1 leave game
+10:31:53.916         | client: player 6 leave game
+10:31:54.691         | client: player 2 leave game
+10:31:55.716         | client: player 15 leave game
+10:32:00.009         | client: avgPing 52.6/54.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+10:32:00.009         | client: connection closed. CLIENT_QUIT
+10:32:00.009         | Network stats (bytes per second): avg pushed 2566, max pushed 3460, avg sent 4515, max sent 5856, avg received 16590, max received 34418
+10:32:00.234         | ====== starting level 10: 'levels/maps/hangar'  single Empty,env=394058 ======
+10:32:00.234         | {
+10:32:00.234         | 	"is_hangar": 1
+10:32:00.234         | }
+10:32:01.022         | ====== level started:  'hangar' ======
+10:32:34.291  WARNING| Performance warning. Try to load unprecached Dye 'pic_Camo12'
+10:32:34.291  WARNING| Performance warning: texture 'textures/patterns/camouflage12' load synchronously
+10:32:42.841  WARNING| Performance warning. Try to load unprecached Dye 'pic_Camo11'
+10:32:42.841  WARNING| Performance warning: texture 'textures/patterns/camouflage11' load synchronously
+10:37:36.591         | TargemServices: RenewAuth: new token = ntKKAAAAAADA7iAunYUxrcDZyFaSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T08:37:36.547Z (drift of 0 sec)
+10:39:12.031         | Test drive started from Hangar
+10:39:44.881         | Test drive started from Hangar
+10:40:00.708         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+10:41:36.114         | Test drive started from Hangar
+10:41:43.130         | Test drive started from Hangar
+10:42:01.980         | Test drive started from Hangar
+10:42:08.865         | Test drive started from Edit
+10:42:12.583  WARNING| Performance warning. Try to load unprecached Dye 'pic_Camo12'
+10:42:12.583  WARNING| Performance warning: texture 'textures/patterns/camouflage12' load synchronously
+10:42:14.565         | Test drive started from Hangar
+10:42:30.842         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+10:44:08.293         | Test drive started from Hangar
+10:45:22.852         | Test drive started from Hangar
+10:45:43.767         | HudShowCharacterMsg: Смотрю, ты знаешь, как выбирать верные пути в хаосе. Есть чем поделиться из твоих путешествий?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+10:52:37.049         | TargemServices: RenewAuth: new token = ntKKAAAAAADOJwdiRO9SESWX1laSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T08:52:36.999Z (drift of 0 sec)
+10:53:57.045         | Test drive started from Hangar
+10:58:48.839         | Test drive started from Hangar
+10:59:22.290         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+11:00:11.379         | Test drive started from Hangar
+11:01:55.483         | Test drive started from Hangar
+11:02:16.692         | Test drive started from Hangar
+11:04:46.119         | Stored mission name: Brawl_FieldBattle_May9
+11:04:46.119         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+11:04:46.722         | Stored mission name: Brawl_FieldBattle_May9
+11:04:47.656         | Matchmaker_NotifyQueueState: 41 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:04:51.355         | Matchmaker_NotifyQueueState: 22 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:04:54.364         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:04:57.205         | CL_MatchMaker::ConnectHandler: addr = 89.169.143.157:35273, gsid = 605636641
+11:04:57.243         | client: start connecting to 89.169.143.157:35273...
+11:04:57.413         | client: connected to 89.169.143.157|35273, server guid '1728032638312191', client guid '441353450903242024', setting up session...
+11:04:57.497         | client: connected to dedicated server. gsid: 605636641, hostname: 'wheel02-ya-ru.pxo/live-5p762-fjc2v'
+11:04:57.605         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:04:57.605         | client: server assigned id 7
+11:04:57.614         | client: got level load message 'levels/maps/shipyard_battle' Brawl_FieldBattle, levelId: 1
+11:04:57.686         | ====== starting level 11: 'levels/maps/shipyard_battle' Brawl_FieldBattle client Empty,env=824223 ======
+11:04:57.686         | {
+11:04:57.686         | 	"minUR": 2484
+11:04:57.686         | 	"maxUR": 12807
+11:04:57.686         | 	"queueTag": Brawl_FieldBattle_May9
+11:04:57.686         | 	"fixedMMValue": 1
+11:04:57.686         | }
+11:04:58.938         | client: send ready message
+11:04:59.003         | client: ADD_PLAYER  0       RiLLk71987, uid 11918464 status   Active team 1
+11:04:59.075         | client: ADD_PLAYER  1 углерод_44, uid 12287684 status   Active team 2
+11:04:59.075         | client: ADD_PLAYER  2   TheCoincidence, uid 8104054 status   Active team 2
+11:04:59.075         | client: ADD_PLAYER  3            M4rla, uid 10441137 status Reserved team 1
+11:04:59.075         | client: ADD_PLAYER  4      pavel_10rus, uid 13142708 status Reserved team 2
+11:04:59.075         | client: ADD_PLAYER  5   LoliKillerChan, uid 6653533 status Reserved team 1
+11:04:59.130         | client: ADD_PLAYER  6        Enoshima_, uid 1684401 status Reserved team 2
+11:04:59.130         | client: ADD_PLAYER  7          RDSF0R_, uid 9097886 status Reserved team 1
+11:04:59.130         | client: ADD_PLAYER  8           _8#360, uid 14185095 status   Active team 2
+11:04:59.131         | client: ADD_PLAYER  9         ABTOCMEX, uid 4633239 status Reserved team 1
+11:04:59.131         | client: ADD_PLAYER 10       MotoTurist, uid 6865856 status   Active team 2
+11:04:59.140         | client: ADD_PLAYER 11        kellvinin, uid 9763871 status Reserved team 1
+11:04:59.140         | client: ADD_PLAYER 12          koffiOk, uid 14233260 status Reserved team 2
+11:04:59.140         | client: ADD_PLAYER 13       BIDJO45695, uid 10336679 status   Active team 1
+11:04:59.140         | client: ADD_PLAYER 14   shamilchik2014, uid 12685764 status Reserved team 1
+11:04:59.183         | client: ADD_PLAYER 15         bsv20001, uid 14254660 status   Active team 2
+11:04:59.183         | client: UPDATE_PLAYER  7          RDSF0R_, uid 9097886 status   Active team 1
+11:04:59.183         | client: got init message. ping 53, MTU 1350
+11:04:59.183         | client: UPDATE_PLAYER  3            M4rla, uid 10441137 status   Active team 1
+11:04:59.187         | ====== level started:  'shipyard_battle' ======
+11:04:59.243         | client: UPDATE_PLAYER 11        kellvinin, uid 9763871 status   Active team 1
+11:05:00.023         | client: UPDATE_PLAYER 14   shamilchik2014, uid 12685764 status   Active team 1
+11:05:00.596         | client: UPDATE_PLAYER  5   LoliKillerChan, uid 6653533 status   Active team 1
+11:05:00.971         | client: UPDATE_PLAYER  4      pavel_10rus, uid 13142708 status   Active team 2
+11:05:02.488         | client: UPDATE_PLAYER  9         ABTOCMEX, uid 4633239 status   Active team 1
+11:05:06.880         | client: UPDATE_PLAYER 12          koffiOk, uid 14233260 status   Active team 2
+11:05:11.846         | client: UPDATE_PLAYER  6        Enoshima_, uid 1684401 status   Active team 2
+11:06:41.814  WARNING| server_fps [ 2024-10-04T09:06:41.756Z ]:  30 29 29 30 30 29 30 30 30 30 29 30 30 30 29 29 29 29 29 29 30 29 29 29 29 30 30 29 30 23 29 29 29 30 29 29 30 29 29 30
+11:06:49.981         | client: player 9 leave game
+11:07:37.509         | TargemServices: RenewAuth: new token = ntKKAAAAAAAzqmcH1T7ySppU5FaSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T09:07:37.468Z (drift of 0 sec)
+11:08:03.873         | client: player 14 leave game
+11:09:27.024         | Gameplay statistic. gameResult 'defeat'
+11:09:27.024         |      Scrap_Common  46,  score 1503, expBase 1264, expDailyBonus 4.0, expTotal 3160, expBaseFactionTotal 3160, expFactionTotal 3160
+11:09:27.024         |      quest Quest_9may_2020_01_complete: 0 / 2 -> 1 / 2
+11:09:27.024         |      quest Solo_Weekly_Brawls_Score_2: 0 / 10000 -> 1503 / 10000
+11:09:27.024         |      quest Clan_Weekly_Quest_Damage_2: 1431382 / 2000000 -> 1443163 / 2000000
+11:09:27.024         |      quest Clan_Weekly_Quest_Damage_3: 1431382 / 6000000 -> 1443163 / 6000000
+11:09:27.024         |      quest Clan_Weekly_Quest_Damage_4: 1431382 / 10000000 -> 1443163 / 10000000
+11:09:27.024         |      quest Clan_Weekly_Quest_Damage_5: 1431382 / 15000000 -> 1443163 / 15000000
+11:09:28.548         | client: player 5 leave game
+11:09:32.481         | client: player 6 leave game
+11:09:33.498         | client: player 0 leave game
+11:09:33.564         | client: player 11 leave game
+11:09:36.655         | client: player 15 leave game
+11:09:36.789         | client: player 10 leave game
+11:09:36.856         | client: player 13 leave game
+11:09:39.172         | client: player 12 leave game
+11:09:41.197         | client: player 2 leave game
+11:09:43.297         | client: player 8 leave game
+11:09:44.788         | client: player 1 leave game
+11:09:46.272         | client: player 4 leave game
+11:10:02.580         | client: player 3 leave game
+11:12:43.913         | client: avgPing 52.9/58.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:12:43.913         | client: connection closed. MANUALLY_RETURN_TO_MATCHMACKER
+11:12:43.913         | Network stats (bytes per second): avg pushed 1941, max pushed 3367, avg sent 3574, max sent 5744, avg received 11654, max received 28371
+11:12:44.157         | ====== starting level 12: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:12:44.157         | {
+11:12:44.157         | 	"is_hangar": 1
+11:12:44.157         | 	"return_to_MM": 1
+11:12:44.157         | }
+11:12:45.039         | ====== level started:  'hangar' ======
+11:12:45.087         | Gameui. try to reenter into matchmaking queue, mission 'Brawl_FieldBattle_May9'
+11:12:45.088         | ResetReturnToMatchmaking: setting up mode MISSION_SELECT
+11:12:45.111         | Stored mission name: Brawl_FieldBattle_May9
+11:12:45.111         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+11:12:45.714         | Stored mission name: Brawl_FieldBattle_May9
+11:12:46.706         | Matchmaker_NotifyQueueState: 26 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:12:50.437         | Matchmaker_NotifyQueueState: 22 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:12:54.404         | Matchmaker_NotifyQueueState: 10 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:12:58.414         | Matchmaker_NotifyQueueState: 17 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:01.438         | Matchmaker_NotifyQueueState: 23 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:05.380         | Matchmaker_NotifyQueueState: 20 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:08.412         | Matchmaker_NotifyQueueState: 29 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:11.437         | Matchmaker_NotifyQueueState: 31 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:15.412         | Matchmaker_NotifyQueueState: 27 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:18.412         | Matchmaker_NotifyQueueState: 20 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:13:19.379         | CL_MatchMaker::ConnectHandler: addr = 185.206.164.117:35043, gsid = 605637101
+11:13:19.417         | client: start connecting to 185.206.164.117:35043...
+11:13:19.596         | client: connected to 185.206.164.117|35043, server guid '1728033194495481', client guid '441353450903242024', setting up session...
+11:13:19.679         | client: connected to dedicated server. gsid: 605637101, hostname: 'wheel02-ya-ru.pxo'
+11:13:19.746         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:13:19.746         | client: server assigned id 3
+11:13:19.755         | client: got level load message 'levels/maps/fieldbattle' Brawl_FieldBattle, levelId: 1
+11:13:19.827         | ====== starting level 13: 'levels/maps/fieldbattle' Brawl_FieldBattle client Empty,env=824223 ======
+11:13:19.827         | {
+11:13:19.827         | 	"minUR": 3408
+11:13:19.827         | 	"maxUR": 11849
+11:13:19.827         | 	"queueTag": Brawl_FieldBattle_May9
+11:13:19.827         | 	"fixedMMValue": 1
+11:13:19.827         | }
+11:13:21.085         | client: send ready message
+11:13:21.226         | client: ADD_PLAYER  0       lukasz2017, uid 3335536 status Reserved team 2
+11:13:21.226         | client: ADD_PLAYER  1       _7zpfa65ac, uid 11773946 status Reserved team 2
+11:13:21.226         | client: ADD_PLAYER  2      AIRUSOK-APB, uid 14233815 status   Active team 1
+11:13:21.226         | client: ADD_PLAYER  3          RDSF0R_, uid 9097886 status Reserved team 2
+11:13:21.278         | client: ADD_PLAYER  4 Barack_Husseinic, uid 6603944 status   Active team 1
+11:13:21.278         | client: ADD_PLAYER  5    BOOMBER_STPAX, uid 6880674 status Reserved team 1
+11:13:21.290         | client: ADD_PLAYER  6          KD9-3-7, uid 9973647 status Reserved team 2
+11:13:21.290         | client: ADD_PLAYER  7            _GROZ, uid 28377 status   Active team 1
+11:13:21.290         | client: ADD_PLAYER  8       Tugodoomer, uid 5899599 status Reserved team 2
+11:13:21.290         | client: ADD_PLAYER  9     ultratank100, uid 12015940 status Reserved team 1
+11:13:21.290         | client: ADD_PLAYER 10        Fatewhite, uid 3476064 status Reserved team 2
+11:13:21.290         | client: ADD_PLAYER 11            SYGMA, uid 8045161 status Reserved team 1
+11:13:21.290         | client: ADD_PLAYER 12       Drago_M234, uid 11318235 status Reserved team 2
+11:13:21.332         | client: ADD_PLAYER 13       Mannfred90, uid 21450 status   Active team 1
+11:13:21.332         | client: ADD_PLAYER 14          _FJeit_, uid 1108476 status   Active team 2
+11:13:21.332         | client: ADD_PLAYER 15       Krriperboy, uid 13499035 status Reserved team 1
+11:13:21.344         | client: UPDATE_PLAYER  3          RDSF0R_, uid 9097886 status   Active team 2
+11:13:21.344         | client: got init message. ping 53, MTU 1350
+11:13:21.344         | client: UPDATE_PLAYER 15       Krriperboy, uid 13499035 status   Active team 1
+11:13:21.348         | ====== level started:  'fieldbattle' ======
+11:13:21.399         | client: UPDATE_PLAYER  8       Tugodoomer, uid 5899599 status   Active team 2
+11:13:21.538         | client: UPDATE_PLAYER  9     ultratank100, uid 12015940 status   Active team 1
+11:13:21.780         | client: UPDATE_PLAYER  0       lukasz2017, uid 3335536 status   Active team 2
+11:13:21.980         | client: UPDATE_PLAYER  1       _7zpfa65ac, uid 11773946 status   Active team 2
+11:13:22.521         | client: UPDATE_PLAYER 12       Drago_M234, uid 11318235 status   Active team 2
+11:13:22.587         | client: UPDATE_PLAYER 10        Fatewhite, uid 3476064 status   Active team 2
+11:13:23.979         | client: UPDATE_PLAYER  5    BOOMBER_STPAX, uid 6880674 status   Active team 1
+11:13:25.737         | client: UPDATE_PLAYER 11            SYGMA, uid 8045161 status   Active team 1
+11:13:28.912         | client: UPDATE_PLAYER  6          KD9-3-7, uid 9973647 status   Active team 2
+11:18:04.088         | client: player 6 leave game
+11:18:37.554         | Quest_Completed callback. questName = 'Quest_9may_2020_01_complete'
+11:18:37.564         | Gameplay statistic. gameResult 'defeat'
+11:18:37.564         |      Scrap_Common  43,  score 870, expBase 870, expDailyBonus 4.0, expTotal 2175, expBaseFactionTotal 2175, expFactionTotal 2175
+11:18:37.564         |      quest Quest_9may_2020_01_complete: 1 / 2 -> 2 / 2
+11:18:37.564         |      quest Solo_Weekly_Brawls_Score_2: 1503 / 10000 -> 2373 / 10000
+11:18:37.564         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 4718 / 15000 -> 5693 / 15000
+11:18:37.564         |      quest Clan_Weekly_Quest_Damage_2: 1443163 / 2000000 -> 1448843 / 2000000
+11:18:37.564         |      quest Clan_Weekly_Quest_Damage_3: 1443163 / 6000000 -> 1448843 / 6000000
+11:18:37.564         |      quest Clan_Weekly_Quest_Damage_4: 1443163 / 10000000 -> 1448843 / 10000000
+11:18:37.564         |      quest Clan_Weekly_Quest_Damage_5: 1443163 / 15000000 -> 1448843 / 15000000
+11:18:40.596         | client: player 8 leave game
+11:18:43.654         | client: player 14 leave game
+11:18:43.829         | client: player 12 leave game
+11:18:43.862         | client: player 13 leave game
+11:18:44.979         | client: player 11 leave game
+11:18:45.079         | client: player 9 leave game
+11:18:45.620         | client: player 7 leave game
+11:18:46.562         | client: player 10 leave game
+11:18:46.705         | client: player 4 leave game
+11:18:47.378         | client: player 1 leave game
+11:18:49.387         | client: player 2 leave game
+11:18:50.445         | client: player 5 leave game
+11:18:55.155         | client: player 0 leave game
+11:18:56.837         | client: avgPing 53.1/56.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:18:56.837         | client: connection closed. CLIENT_QUIT
+11:18:56.837         | Network stats (bytes per second): avg pushed 2503, max pushed 3395, avg sent 4543, max sent 5879, avg received 17729, max received 31088
+11:18:57.080         | ====== starting level 14: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:18:57.080         | {
+11:18:57.080         | 	"is_hangar": 1
+11:18:57.080         | }
+11:18:57.841         | ====== level started:  'hangar' ======
+11:19:20.396         | Stored mission name: Brawl_FieldBattle_May9
+11:19:20.396         | StartMatchmaking: 'solo', mission 'Brawl_FieldBattle_May9', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"fieldbattle,shipyard_battle,desolate_city:Brawl_FieldBattle","botList":""}'
+11:19:20.963         | Stored mission name: Brawl_FieldBattle_May9
+11:19:21.787         | Matchmaker_NotifyQueueState: 26 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:19:25.479         | Matchmaker_NotifyQueueState: 24 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:19:29.487         | Matchmaker_NotifyQueueState: 19 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:19:32.495         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:19:35.504         | Matchmaker_NotifyQueueState: 13 avg queue time sec, queueTag: Brawl_FieldBattle_May9, inQueue: true
+11:19:37.637         | CL_MatchMaker::ConnectHandler: addr = 130.193.42.245:35004, gsid = 605637439
+11:19:37.677         | client: start connecting to 130.193.42.245:35004...
+11:19:37.854         | client: connected to 130.193.42.245|35004, server guid '1728033573510552', client guid '441353450903242024', setting up session...
+11:19:37.937         | client: connected to dedicated server. gsid: 605637439, hostname: 'wheel05-ya-ru.pxo'
+11:19:38.013         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:19:38.013         | client: server assigned id 9
+11:19:38.023         | client: got level load message 'levels/maps/shipyard_battle' Brawl_FieldBattle, levelId: 1
+11:19:38.091         | ====== starting level 15: 'levels/maps/shipyard_battle' Brawl_FieldBattle client Empty,env=889977 ======
+11:19:38.091         | {
+11:19:38.091         | 	"minUR": 1499
+11:19:38.091         | 	"maxUR": 10419
+11:19:38.091         | 	"queueTag": Brawl_FieldBattle_May9
+11:19:38.091         | 	"fixedMMValue": 1
+11:19:38.091         | }
+11:19:39.433         | client: send ready message
+11:19:39.602         | client: ADD_PLAYER  0       _kvxksich_, uid 5863291 status Reserved team 2
+11:19:39.602         | client: ADD_PLAYER  1         Crazyf00, uid 13251593 status   Active team 1
+11:19:39.602         | client: ADD_PLAYER  2       lukasz2017, uid 3335536 status   Active team 1
+11:19:39.602         | client: ADD_PLAYER  3      Shinukage#1, uid 13906434 status Reserved team 2
+11:19:39.602         | client: ADD_PLAYER  4        BlindeKip, uid 14296252 status Reserved team 1
+11:19:39.656         | client: ADD_PLAYER  5    САшА_w503, uid 14279571 status Reserved team 1
+11:19:39.656         | client: ADD_PLAYER  6          pashe4k, uid 14348476 status Reserved team 2
+11:19:39.656         | client: ADD_PLAYER  7           BOBA80, uid 3545768 status Reserved team 2
+11:19:39.656         | client: ADD_PLAYER  8     TerraSana852, uid 11576948 status Reserved team 1
+11:19:39.656         | client: ADD_PLAYER  9          RDSF0R_, uid 9097886 status Reserved team 2
+11:19:39.677         | client: ADD_PLAYER 10          Xersaac, uid 14158911 status Reserved team 1
+11:19:39.677         | client: ADD_PLAYER 11          TOPBAPD, uid 4785781 status Reserved team 2
+11:19:39.677         | client: ADD_PLAYER 12    кимт2лт, uid 14154153 status Reserved team 1
+11:19:39.677         | client: ADD_PLAYER 13             _4S_, uid 1337169 status   Active team 2
+11:19:39.677         | client: ADD_PLAYER 14       vanzzz2009, uid 14342174 status   Active team 1
+11:19:39.707         | client: ADD_PLAYER 15        dr_slider, uid 3688 status Reserved team 2
+11:19:39.707         | client: UPDATE_PLAYER  9          RDSF0R_, uid 9097886 status   Active team 2
+11:19:39.707         | client: got init message. ping 53, MTU 1350
+11:19:39.707         | client: UPDATE_PLAYER  3      Shinukage#1, uid 13906434 status   Active team 2
+11:19:39.707         | client: UPDATE_PLAYER  6          pashe4k, uid 14348476 status   Active team 2
+11:19:39.712         | ====== level started:  'shipyard_battle' ======
+11:19:39.904         | client: UPDATE_PLAYER  8     TerraSana852, uid 11576948 status   Active team 1
+11:19:40.620         | client: UPDATE_PLAYER  0       _kvxksich_, uid 5863291 status   Active team 2
+11:19:40.745         | client: UPDATE_PLAYER  7           BOBA80, uid 3545768 status   Active team 2
+11:19:41.287         | client: UPDATE_PLAYER  4        BlindeKip, uid 14296252 status   Active team 1
+11:19:41.570         | client: UPDATE_PLAYER 10          Xersaac, uid 14158911 status   Active team 1
+11:19:44.337         | client: UPDATE_PLAYER 15        dr_slider, uid 3688 status   Active team 2
+11:19:45.586         | client: UPDATE_PLAYER 11          TOPBAPD, uid 4785781 status   Active team 2
+11:19:46.195         | client: UPDATE_PLAYER 12    кимт2лт, uid 14154153 status   Active team 1
+11:20:37.326         | client: RESET_RESERVED_PLAYER  5    САшА_w503, uid 14279571@live status Reserved team 1
+11:20:45.222         | client: player 15 leave game
+11:20:47.396         | client: ADD_PLAYER  5        Beretta26, uid 1632020 status Reserved team 2
+11:20:47.396         | client: ADD_PLAYER 15          amokk13, uid 8756222 status Reserved team 1
+11:20:49.496         | client: UPDATE_PLAYER 15          amokk13, uid 8756222 status   Active team 1
+11:20:52.081         | client: UPDATE_PLAYER  5        Beretta26, uid 1632020 status   Active team 2
+11:22:37.930         | TargemServices: RenewAuth: new token = ntKKAAAAAAArfDGHnX7RcQIS8laSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T09:22:37.924Z (drift of 0 sec)
+11:24:05.871         | client: player 4 leave game
+11:26:26.321         | Gameplay statistic. gameResult 'defeat'
+11:26:26.322         |      Scrap_Common  44,  score 1779, expBase 1279, expDailyBonus 4.0, expTotal 3197, expBaseFactionTotal 3197, expFactionTotal 3197
+11:26:26.322         |      quest Solo_Weekly_Brawls_Score_2: 2373 / 10000 -> 4152 / 10000
+11:26:26.322         |      quest Clan_Weekly_Quest_Damage_2: 1448843 / 2000000 -> 1458871 / 2000000
+11:26:26.322         |      quest Clan_Weekly_Quest_Damage_3: 1448843 / 6000000 -> 1458871 / 6000000
+11:26:26.322         |      quest Clan_Weekly_Quest_Damage_4: 1448843 / 10000000 -> 1458871 / 10000000
+11:26:26.322         |      quest Clan_Weekly_Quest_Damage_5: 1448843 / 15000000 -> 1458871 / 15000000
+11:26:28.138         | client: player 13 leave game
+11:26:31.729         | client: player 5 leave game
+11:26:32.479         | client: player 11 leave game
+11:26:32.512         | client: player 10 leave game
+11:26:32.579         | client: player 14 leave game
+11:26:32.612         | client: player 7 leave game
+11:26:33.804         | client: player 0 leave game
+11:26:35.120         | client: player 12 leave game
+11:26:36.145         | client: player 8 leave game
+11:26:36.820         | client: player 6 leave game
+11:26:42.003         | client: player 15 leave game
+11:26:43.396         | client: player 3 leave game
+11:26:43.611         | client: player 2 leave game
+11:26:48.870         | client: player 1 leave game
+11:27:11.895         | client: avgPing 53.2/59.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:27:11.895         | client: connection closed. CLIENT_QUIT
+11:27:11.895         | Network stats (bytes per second): avg pushed 2168, max pushed 3237, avg sent 3996, max sent 5700, avg received 14973, max received 26532
+11:27:12.146         | ====== starting level 16: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:27:12.146         | {
+11:27:12.146         | 	"is_hangar": 1
+11:27:12.146         | }
+11:27:12.986         | ====== level started:  'hangar' ======
+11:27:49.792         | Stored mission name: CoopVsAi
+11:27:49.792         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:27:50.453         | Stored mission name: CoopVsAi
+11:27:50.878         | Matchmaker_NotifyQueueState: 15 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:27:54.495         | Matchmaker_NotifyQueueState: 26 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:27:57.528         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:27:57.887         | CL_MatchMaker::ConnectHandler: addr = 84.252.131.47:35030, gsid = 605637910
+11:27:57.925         | client: start connecting to 84.252.131.47:35030...
+11:27:58.095         | client: connected to 84.252.131.47|35030, server guid '1728034025524564', client guid '441353450903242024', setting up session...
+11:27:58.187         | client: connected to dedicated server. gsid: 605637910, hostname: 'wheel01-ya-ru.pxo/live-5p762-2xc7b'
+11:27:58.262         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:27:58.262         | client: server assigned id 2
+11:27:58.272         | client: got level load message 'levels/maps/sinto' ConquerCoopVsAi, levelId: 1
+11:27:58.344         | ====== starting level 17: 'levels/maps/sinto' ConquerCoopVsAi client Empty,env=400400 ======
+11:27:58.344         | {
+11:27:58.344         | 	"minUR": 4141
+11:27:58.344         | 	"maxUR": 4666
+11:27:58.344         | 	"queueTag": CoopVsAi
+11:27:58.344         | 	"fixedMMValue": 0
+11:27:58.344         | }
+11:28:08.160         | client: send ready message
+11:28:08.241         | client: ADD_PLAYER  0         Abesolom, uid 3589385 status Reserved team 1
+11:28:08.291         | client: ADD_PLAYER  1      Eddy_gripit, uid 13383310 status   Active team 1
+11:28:08.291         | client: ADD_PLAYER  2          RDSF0R_, uid 9097886 status Reserved team 1
+11:28:08.309         | client: ADD_PLAYER  3        Tequilas_, uid 6856891 status Reserved team 1
+11:28:08.309         | client: ADD_PLAYER  4 ветер перемен, uid 11083204 status   Active team 1
+11:28:08.371         | client: ADD_PLAYER 16            Joern, uid 0 status   Active team 1
+11:28:08.371         | client: ADD_PLAYER 17          Anthony, uid 0 status   Active team 2
+11:28:08.371         | client: ADD_PLAYER 18           Ashley, uid 0 status   Active team 1
+11:28:08.371         | client: ADD_PLAYER 19             Adam, uid 0 status   Active team 2
+11:28:08.400         | client: ADD_PLAYER 20           Daniel, uid 0 status   Active team 1
+11:28:08.400         | client: ADD_PLAYER 21           Olivia, uid 0 status   Active team 2
+11:28:08.400         | client: ADD_PLAYER 23         Isabella, uid 0 status   Active team 2
+11:28:08.400         | client: ADD_PLAYER 25          Kenneth, uid 0 status   Active team 2
+11:28:08.422         | client: ADD_PLAYER 27           George, uid 0 status   Active team 2
+11:28:08.422         | client: ADD_PLAYER 29         Samantha, uid 0 status   Active team 2
+11:28:08.422         | client: ADD_PLAYER 31           Robert, uid 0 status   Active team 2
+11:28:08.423         | client: UPDATE_PLAYER  2          RDSF0R_, uid 9097886 status   Active team 1
+11:28:09.650         | client: got init message. ping 50, MTU 1350
+11:28:10.360         | ====== level started:  'sinto' ======
+11:28:12.972         | client: UPDATE_PLAYER  3        Tequilas_, uid 6856891 status   Active team 1
+11:28:13.096         | client: UPDATE_PLAYER  0         Abesolom, uid 3589385 status   Active team 1
+11:29:11.880         | NotifyStripeEarned: 9097886@live, PvpAssist, 1
+11:29:12.256         | Quest_Completed callback. questName = 'Quest_stripes_helper_1'
+11:29:22.855         | client: player 1 leave game
+11:29:26.472         | Quest_Completed callback. questName = 'Daily_2_WinsPvpHelicopter2'
+11:29:26.472         | Gameplay statistic. gameResult 'victory'
+11:29:26.472         |      Scrap_Common   9,  score 763, expBase 763, expDailyBonus 4.0, expTotal 2384, expBaseFactionTotal 2384, expFactionTotal 2384
+11:29:26.472         |      quest Daily_2_WinsPvpHelicopter2: 2 / 3 -> 3 / 3
+11:29:26.472         |      quest Daily_6_Quests2: 2 / 4 -> 3 / 4
+11:29:26.472         |      quest Solo_Weekly_Daily_Quests_1: 17 / 20 -> 18 / 20
+11:29:26.472         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 5 / 10 -> 6 / 10
+11:29:26.472         |      quest Quest_detach_pvp_500: 402 / 500 -> 413 / 500
+11:29:26.472         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 5693 / 15000 -> 6849 / 15000
+11:29:26.472         |      quest Quest_kill_pvp_30: 23 / 30 -> 29 / 30
+11:29:26.472         |      quest Clan_Weekly_Quest_Win_Pvp_2: 101 / 200 -> 102 / 200
+11:29:26.472         |      quest Clan_Weekly_Quest_Win_Pvp_3: 101 / 500 -> 102 / 500
+11:29:26.472         |      quest Clan_Weekly_Quest_Win_Pvp_4: 101 / 800 -> 102 / 800
+11:29:26.472         |      quest Clan_Weekly_Quest_Win_Pvp_5: 101 / 1000 -> 102 / 1000
+11:29:26.472         |      quest Clan_Weekly_Quest_Damage_2: 1458871 / 2000000 -> 1460493 / 2000000
+11:29:26.472         |      quest Clan_Weekly_Quest_Damage_3: 1458871 / 6000000 -> 1460493 / 6000000
+11:29:26.472         |      quest Clan_Weekly_Quest_Damage_4: 1458871 / 10000000 -> 1460493 / 10000000
+11:29:26.472         |      quest Clan_Weekly_Quest_Damage_5: 1458871 / 15000000 -> 1460493 / 15000000
+11:29:28.646         | client: player 3 leave game
+11:29:32.753         | client: player 4 leave game
+11:29:33.028         | client: player 0 leave game
+11:29:45.145         | client: avgPing 50.2/51.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:29:45.145         | client: connection closed. CLIENT_QUIT
+11:29:45.145         | Network stats (bytes per second): avg pushed 2263, max pushed 3448, avg sent 4073, max sent 6047, avg received 14176, max received 29600
+11:29:45.379         | ====== starting level 18: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:29:45.379         | {
+11:29:45.379         | 	"is_hangar": 1
+11:29:45.379         | }
+11:29:46.246         | ====== level started:  'hangar' ======
+11:30:24.020         | Spawn User Blueprint 3
+11:30:25.964         | Stored mission name: CoopVsAi
+11:30:25.964         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:30:26.836         | Stored mission name: CoopVsAi
+11:30:27.945         | Matchmaker_NotifyQueueState: 17 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:31.578         | Matchmaker_NotifyQueueState: 13 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:35.536         | Matchmaker_NotifyQueueState: 11 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:39.561         | Matchmaker_NotifyQueueState: 21 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:43.570         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:46.569         | Matchmaker_NotifyQueueState: 20 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:49.577         | Matchmaker_NotifyQueueState: 11 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:53.561         | Matchmaker_NotifyQueueState: 10 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:30:56.594         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:31:00.561         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:31:03.569         | Matchmaker_NotifyQueueState: 35 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:31:07.553         | Matchmaker_NotifyQueueState: 34 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:31:11.539         | Matchmaker_NotifyQueueState: 30 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:31:14.053         | CL_MatchMaker::ConnectHandler: addr = 84.252.128.226:35866, gsid = 605638100
+11:31:14.091         | client: start connecting to 84.252.128.226:35866...
+11:31:14.244         | client: connected to 84.252.128.226|35866, server guid '1728034262846377', client guid '441353450903242024', setting up session...
+11:31:14.328         | client: connected to dedicated server. gsid: 605638100, hostname: 'wheel05-ya-ru.pxo/live-5p762-qw276'
+11:31:14.386         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:31:14.386         | client: server assigned id 0
+11:31:14.396         | client: got level load message 'levels/maps/helicopter_gorge' AssaultCoopVsAi, levelId: 1
+11:31:14.465         | ====== starting level 19: 'levels/maps/helicopter_gorge' AssaultCoopVsAi client Empty,env=882693 ======
+11:31:14.465         | {
+11:31:14.465         | 	"minUR": 2372
+11:31:14.465         | 	"maxUR": 3287
+11:31:14.465         | 	"queueTag": CoopVsAi
+11:31:14.465         | 	"fixedMMValue": 0
+11:31:14.465         | }
+11:31:14.771         | Matchmaker_NotifyQueueState: 25 avg queue time sec, queueTag: CoopVsAi, inQueue: false
+11:31:21.137         | client: send ready message
+11:31:21.210         | client: ADD_PLAYER  0          RDSF0R_, uid 9097886 status Reserved team 1
+11:31:21.267         | client: ADD_PLAYER  1        TIGRi2012, uid 10372973 status   Active team 1
+11:31:21.267         | client: ADD_PLAYER  2        IIBOPOHII, uid 5531755 status   Active team 1
+11:31:21.267         | client: ADD_PLAYER  3      Ragnarookpd, uid 5088167 status   Active team 1
+11:31:21.319         | client: ADD_PLAYER  4      nokoasium25, uid 14348346 status Reserved team 1
+11:31:21.319         | client: ADD_PLAYER  5     miha-stryker, uid 13585221 status Reserved team 1
+11:31:21.320         | client: ADD_PLAYER 16            Jamie, uid 0 status   Active team 1
+11:31:21.320         | client: ADD_PLAYER 17            James, uid 0 status   Active team 2
+11:31:21.320         | client: ADD_PLAYER 18            Damon, uid 0 status   Active team 1
+11:31:21.320         | client: ADD_PLAYER 19           Daniel, uid 0 status   Active team 2
+11:31:21.320         | client: ADD_PLAYER 21             Mary, uid 0 status   Active team 2
+11:31:21.364         | client: ADD_PLAYER 23            Bernd, uid 0 status   Active team 2
+11:31:21.364         | client: ADD_PLAYER 25           Sophia, uid 0 status   Active team 2
+11:31:21.364         | client: ADD_PLAYER 27            Helen, uid 0 status   Active team 2
+11:31:21.364         | client: ADD_PLAYER 29          Matthew, uid 0 status   Active team 2
+11:31:21.364         | client: ADD_PLAYER 31          Michael, uid 0 status   Active team 2
+11:31:21.365         | client: UPDATE_PLAYER  0          RDSF0R_, uid 9097886 status   Active team 1
+11:31:21.719         | client: got init message. ping 67, MTU 1350
+11:31:22.263         | ====== level started:  'helicopter_gorge' ======
+11:31:23.125         | client: player 18 leave game
+11:31:23.125         | client: ADD_PLAYER  6        TAHKETKA7, uid 2708498 status Reserved team 1
+11:31:23.881         | client: UPDATE_PLAYER  5     miha-stryker, uid 13585221 status   Active team 1
+11:31:25.446         | client: UPDATE_PLAYER  6        TAHKETKA7, uid 2708498 status   Active team 1
+11:31:26.295         | client: UPDATE_PLAYER  4      nokoasium25, uid 14348346 status   Active team 1
+11:32:33.738         | NotifyStripeEarned: 9097886@live, PvpFlawless, 1
+11:32:33.819         | Quest_Completed callback. questName = 'Quest_kill_pvp_30'
+11:32:33.820         | Gameplay statistic. gameResult 'victory'
+11:32:33.820         |      Scrap_Common   8,  score 198, expBase 198, expDailyBonus 4.0, expTotal 618, expBaseFactionTotal 679, expFactionTotal 618
+11:32:33.820         |      quest Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized1: 0 / 2 -> 1 / 2
+11:32:33.820         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 6 / 10 -> 7 / 10
+11:32:33.820         |      quest Quest_detach_pvp_500: 413 / 500 -> 419 / 500
+11:32:33.820         |      quest Quest_kill_pvp_30: 29 / 30 -> 30 / 30
+11:32:33.820         |      quest Quest_win_everywhere_3: 0 / 3 -> 1 / 3
+11:32:33.820         |      quest Clan_Weekly_Quest_Win_Pvp_2: 102 / 200 -> 103 / 200
+11:32:33.820         |      quest Clan_Weekly_Quest_Win_Pvp_3: 102 / 500 -> 103 / 500
+11:32:33.820         |      quest Clan_Weekly_Quest_Win_Pvp_4: 102 / 800 -> 103 / 800
+11:32:33.820         |      quest Clan_Weekly_Quest_Win_Pvp_5: 102 / 1000 -> 103 / 1000
+11:32:33.820         |      quest Clan_Weekly_Quest_Damage_2: 1460493 / 2000000 -> 1460658 / 2000000
+11:32:33.820         |      quest Clan_Weekly_Quest_Damage_3: 1460493 / 6000000 -> 1460658 / 6000000
+11:32:33.820         |      quest Clan_Weekly_Quest_Damage_4: 1460493 / 10000000 -> 1460658 / 10000000
+11:32:33.820         |      quest Clan_Weekly_Quest_Damage_5: 1460493 / 15000000 -> 1460658 / 15000000
+11:32:34.066         | Quest_Completed callback. questName = 'BattlePass2023_01_daily_q02'
+11:32:35.122         | client: player 2 leave game
+11:32:39.354         | client: player 1 leave game
+11:32:39.562         | client: player 6 leave game
+11:32:43.362         | client: player 5 leave game
+11:32:45.229         | client: avgPing 47.6/67.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:32:45.229         | client: connection closed. MANUALLY_RETURN_TO_MATCHMACKER
+11:32:45.229         | Network stats (bytes per second): avg pushed 2080, max pushed 3070, avg sent 3780, max sent 5392, avg received 11730, max received 20136
+11:32:45.594         | ====== starting level 20: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:32:45.594         | {
+11:32:45.594         | 	"is_hangar": 1
+11:32:45.594         | 	"return_to_MM": 1
+11:32:45.594         | }
+11:32:46.476         | ====== level started:  'hangar' ======
+11:32:46.521         | Gameui. try to reenter into matchmaking queue, mission 'CoopVsAi'
+11:32:46.521         | ResetReturnToMatchmaking: setting up mode MISSION_SELECT
+11:32:46.599         | Stored mission name: CoopVsAi
+11:32:46.599         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:32:47.369         | Stored mission name: CoopVsAi
+11:32:47.953         | Matchmaker_NotifyQueueState: 9 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:32:51.536         | CL_MatchMaker::ConnectHandler: addr = 185.206.164.117:35020, gsid = 605638199
+11:32:51.573         | client: start connecting to 185.206.164.117:35020...
+11:32:51.579         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: CoopVsAi, inQueue: false
+11:32:51.770         | client: connected to 185.206.164.117|35020, server guid '1728034364672650', client guid '441353450903242024', setting up session...
+11:32:51.845         | client: connected to dedicated server. gsid: 605638199, hostname: 'wheel02-ya-ru.pxo'
+11:32:51.911         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:32:51.911         | client: server assigned id 5
+11:32:51.920         | client: got level load message 'levels/maps/iron_way_center' AssaultCoopVsAi, levelId: 1
+11:32:51.993         | ====== starting level 21: 'levels/maps/iron_way_center' AssaultCoopVsAi client Empty,env=732642 ======
+11:32:51.993         | {
+11:32:51.993         | 	"minUR": 2063
+11:32:51.993         | 	"maxUR": 2972
+11:32:51.993         | 	"queueTag": CoopVsAi
+11:32:51.993         | 	"fixedMMValue": 0
+11:32:51.993         | }
+11:32:54.750         | client: send ready message
+11:32:54.830         | client: ADD_PLAYER  0          jarogal, uid 14014443 status   Active team 1
+11:32:54.830         | client: ADD_PLAYER  1          PsgTrep, uid 3954847 status   Active team 1
+11:32:54.898         | client: ADD_PLAYER  2        TAHKETKA7, uid 2708498 status   Active team 1
+11:32:54.898         | client: ADD_PLAYER  3     miha-stryker, uid 13585221 status   Active team 1
+11:32:54.898         | client: ADD_PLAYER  4      nokoasium25, uid 14348346 status Reserved team 1
+11:32:54.959         | client: ADD_PLAYER  5          RDSF0R_, uid 9097886 status Reserved team 1
+11:32:54.959         | client: ADD_PLAYER  6      Ragnarookpd, uid 5088167 status   Active team 1
+11:32:54.959         | client: ADD_PLAYER  7        SilveR_79, uid 14345337 status Reserved team 1
+11:32:54.974         | client: ADD_PLAYER 17           Sergei, uid 0 status   Active team 2
+11:32:54.974         | client: ADD_PLAYER 19          Claudia, uid 0 status   Active team 2
+11:32:55.013         | client: ADD_PLAYER 21           Ashley, uid 0 status   Active team 2
+11:32:55.013         | client: ADD_PLAYER 23          Abigail, uid 0 status   Active team 2
+11:32:55.013         | client: ADD_PLAYER 25             Emma, uid 0 status   Active team 2
+11:32:55.013         | client: ADD_PLAYER 27             Lisa, uid 0 status   Active team 2
+11:32:55.014         | client: ADD_PLAYER 29           Alyssa, uid 0 status   Active team 2
+11:32:55.026         | client: ADD_PLAYER 31            Jacob, uid 0 status   Active team 2
+11:32:55.028         | client: UPDATE_PLAYER  5          RDSF0R_, uid 9097886 status   Active team 1
+11:32:55.209         | client: got init message. ping 107, MTU 1350
+11:32:55.209         | client: UPDATE_PLAYER  7        SilveR_79, uid 14345337 status   Active team 1
+11:32:55.274         | ====== level started:  'iron_way_center' ======
+11:32:56.128         | client: UPDATE_PLAYER  4      nokoasium25, uid 14348346 status   Active team 1
+11:33:58.121         | Quest_Completed callback. questName = 'Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized1'
+11:33:58.121         | Quest_Completed callback. questName = 'Daily_6_Quests2'
+11:33:58.121         | Quest_Completed callback. questName = 'Solo_Weekly_Daily_Quests_1'
+11:33:58.130         | Gameplay statistic. gameResult 'victory'
+11:33:58.130         |      Scrap_Common   8,  score 106, expBase 106, expDailyBonus 4.0, expTotal 331, expBaseFactionTotal 364, expFactionTotal 331
+11:33:58.130         |      quest Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized1: 1 / 2 -> 2 / 2
+11:33:58.130         |      quest Daily_6_Quests2: 3 / 4 -> 4 / 4
+11:33:58.130         |      quest Solo_Weekly_Daily_Quests_1: 18 / 20 -> 20 / 20
+11:33:58.130         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 7 / 10 -> 8 / 10
+11:33:58.130         |      quest Quest_detach_pvp_500: 419 / 500 -> 432 / 500
+11:33:58.130         |      quest Quest_win_everywhere_3: 1 / 3 -> 2 / 3
+11:33:58.130         |      quest Clan_Weekly_Quest_Win_Pvp_2: 103 / 200 -> 104 / 200
+11:33:58.130         |      quest Clan_Weekly_Quest_Win_Pvp_3: 103 / 500 -> 104 / 500
+11:33:58.130         |      quest Clan_Weekly_Quest_Win_Pvp_4: 103 / 800 -> 104 / 800
+11:33:58.130         |      quest Clan_Weekly_Quest_Win_Pvp_5: 103 / 1000 -> 104 / 1000
+11:33:58.130         |      quest Clan_Weekly_Quest_Damage_2: 1460658 / 2000000 -> 1460844 / 2000000
+11:33:58.130         |      quest Clan_Weekly_Quest_Damage_3: 1460658 / 6000000 -> 1460844 / 6000000
+11:33:58.130         |      quest Clan_Weekly_Quest_Damage_4: 1460658 / 10000000 -> 1460844 / 10000000
+11:33:58.130         |      quest Clan_Weekly_Quest_Damage_5: 1460658 / 15000000 -> 1460844 / 15000000
+11:34:04.129         | client: player 2 leave game
+11:34:05.379         | client: player 6 leave game
+11:34:05.721         | client: player 1 leave game
+11:34:06.604         | client: player 4 leave game
+11:34:07.862         | client: player 3 leave game
+11:34:12.803         | client: player 0 leave game
+11:34:16.761         | client: avgPing 55.9/107.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:34:16.761         | client: connection closed. MANUALLY_RETURN_TO_MATCHMACKER
+11:34:16.761         | Network stats (bytes per second): avg pushed 2281, max pushed 3227, avg sent 4155, max sent 5710, avg received 13110, max received 24122
+11:34:17.017         | ====== starting level 22: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:34:17.017         | {
+11:34:17.017         | 	"is_hangar": 1
+11:34:17.017         | 	"return_to_MM": 1
+11:34:17.017         | }
+11:34:17.780         | ====== level started:  'hangar' ======
+11:34:17.823         | Gameui. try to reenter into matchmaking queue, mission 'CoopVsAi'
+11:34:17.823         | ResetReturnToMatchmaking: setting up mode MISSION_SELECT
+11:34:17.868         | Stored mission name: CoopVsAi
+11:34:17.868         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:34:18.353         | Stored mission name: CoopVsAi
+11:34:18.952         | Matchmaker_NotifyQueueState: 43 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:34:19.419         | CL_MatchMaker::ConnectHandler: addr = 89.169.154.92:35158, gsid = 605638277
+11:34:19.457         | client: start connecting to 89.169.154.92:35158...
+11:34:19.627         | client: connected to 89.169.154.92|35158, server guid '1728034438913494', client guid '441353450903242024', setting up session...
+11:34:19.694         | client: connected to dedicated server. gsid: 605638277, hostname: 'wheel01-ya-ru.pxo/live-5p762-zm7vz'
+11:34:19.769         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:34:19.769         | client: server assigned id 7
+11:34:19.778         | client: got level load message 'levels/maps/cityruin' ConquerCoopVsAi, levelId: 1
+11:34:19.853         | ====== starting level 23: 'levels/maps/cityruin' ConquerCoopVsAi client Empty,env=618949 ======
+11:34:19.853         | {
+11:34:19.853         | 	"minUR": 2523
+11:34:19.853         | 	"maxUR": 3180
+11:34:19.853         | 	"queueTag": CoopVsAi
+11:34:19.853         | 	"fixedMMValue": 0
+11:34:19.853         | }
+11:34:24.957         | client: send ready message
+11:34:25.105         | client: ADD_PLAYER  0         Konstyax, uid 14321871 status   Active team 1
+11:34:25.105         | client: ADD_PLAYER  1          R00M41K, uid 11717815 status   Active team 1
+11:34:25.105         | client: ADD_PLAYER  2        TAHKETKA7, uid 2708498 status   Active team 1
+11:34:25.157         | client: ADD_PLAYER  3      Ragnarookpd, uid 5088167 status   Active team 1
+11:34:25.179         | client: ADD_PLAYER  4      nokoasium25, uid 14348346 status   Active team 1
+11:34:25.179         | client: ADD_PLAYER  5     miha-stryker, uid 13585221 status   Active team 1
+11:34:25.179         | client: ADD_PLAYER  6 ГарынычЗлыдень, uid 13993544 status   Active team 1
+11:34:25.179         | client: ADD_PLAYER  7          RDSF0R_, uid 9097886 status Reserved team 1
+11:34:25.210         | client: ADD_PLAYER 17            Emily, uid 0 status   Active team 2
+11:34:25.210         | client: ADD_PLAYER 19             Adam, uid 0 status   Active team 2
+11:34:25.222         | client: ADD_PLAYER 21          Claudia, uid 0 status   Active team 2
+11:34:25.232         | client: ADD_PLAYER 23             Mary, uid 0 status   Active team 2
+11:34:25.232         | client: ADD_PLAYER 25             Lisa, uid 0 status   Active team 2
+11:34:25.232         | client: ADD_PLAYER 27           Connor, uid 0 status   Active team 2
+11:34:25.232         | client: ADD_PLAYER 29      Christopher, uid 0 status   Active team 2
+11:34:25.233         | client: ADD_PLAYER 31            Jacob, uid 0 status   Active team 2
+11:34:25.233         | client: UPDATE_PLAYER  7          RDSF0R_, uid 9097886 status   Active team 1
+11:34:25.454         | client: got init message. ping 53, MTU 1350
+11:34:25.458         | ====== level started:  'cityruin' ======
+11:35:13.512         | Quest_Completed callback. questName = 'Quest_win_everywhere_3'
+11:35:13.513         | Gameplay statistic. gameResult 'victory'
+11:35:13.513         |      Scrap_Common   9,  score 652, expBase 652, expDailyBonus 4.0, expTotal 2037, expBaseFactionTotal 2240, expFactionTotal 2037
+11:35:13.513         |      quest Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized2: 0 / 3 -> 1 / 3
+11:35:13.513         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 8 / 10 -> 9 / 10
+11:35:13.513         |      quest Quest_detach_pvp_500: 432 / 500 -> 470 / 500
+11:35:13.513         |      quest Quest_win_everywhere_3: 2 / 3 -> 3 / 3
+11:35:13.513         |      quest Clan_Weekly_Quest_Win_Pvp_2: 104 / 200 -> 105 / 200
+11:35:13.513         |      quest Clan_Weekly_Quest_Win_Pvp_3: 104 / 500 -> 105 / 500
+11:35:13.513         |      quest Clan_Weekly_Quest_Win_Pvp_4: 104 / 800 -> 105 / 800
+11:35:13.513         |      quest Clan_Weekly_Quest_Win_Pvp_5: 104 / 1000 -> 105 / 1000
+11:35:13.513         |      quest Clan_Weekly_Quest_Damage_2: 1460844 / 2000000 -> 1461635 / 2000000
+11:35:13.513         |      quest Clan_Weekly_Quest_Damage_3: 1460844 / 6000000 -> 1461635 / 6000000
+11:35:13.513         |      quest Clan_Weekly_Quest_Damage_4: 1460844 / 10000000 -> 1461635 / 10000000
+11:35:13.513         |      quest Clan_Weekly_Quest_Damage_5: 1460844 / 15000000 -> 1461635 / 15000000
+11:35:19.587         | client: player 2 leave game
+11:35:19.687         | client: player 0 leave game
+11:35:20.703         | client: player 4 leave game
+11:35:21.620         | client: player 3 leave game
+11:35:22.328         | client: player 1 leave game
+11:35:24.370         | client: player 5 leave game
+11:35:25.352         | client: player 6 leave game
+11:37:21.286         | client: avgPing 52.9/58.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:37:21.286         | client: connection closed. CLIENT_QUIT
+11:37:21.286         | Network stats (bytes per second): avg pushed 1568, max pushed 3217, avg sent 3006, max sent 5857, avg received 8292, max received 26240
+11:37:21.566         | ====== starting level 24: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:37:21.566         | {
+11:37:21.566         | 	"is_hangar": 1
+11:37:21.566         | }
+11:37:22.453         | ====== level started:  'hangar' ======
+11:37:38.320         | TargemServices: RenewAuth: new token = ntKKAAAAAAAcO3ueLWs-aC_P_1aSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T09:37:38.322Z (drift of 0 sec)
+11:37:40.170         | NotifyStripeEarned: 9097886@live, TradeSellScrapMany, 1
+11:37:40.170         | NotifyStripeEarned: 9097886@live, TradeSellScrapLow, 1
+11:41:26.623         | Stored mission name: CoopVsAi
+11:41:26.623         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:41:27.218         | Stored mission name: CoopVsAi
+11:41:27.969         | Matchmaker_NotifyQueueState: 32 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:41:29.552         | CL_MatchMaker::ConnectHandler: addr = 89.169.143.157:35768, gsid = 605638730
+11:41:29.592         | client: start connecting to 89.169.143.157:35768...
+11:41:29.784         | client: connected to 89.169.143.157|35768, server guid '1728034882862096', client guid '441353450903242024', setting up session...
+11:41:29.869         | client: connected to dedicated server. gsid: 605638730, hostname: 'wheel05-ya-ru.pxo/live-5p762-b5qck'
+11:41:29.961         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:41:29.961         | client: server assigned id 5
+11:41:29.970         | client: got level load message 'levels/maps/iron_way_center' AssaultCoopVsAi, levelId: 1
+11:41:30.070         | ====== starting level 25: 'levels/maps/iron_way_center' AssaultCoopVsAi client Empty,env=339868 ======
+11:41:30.070         | {
+11:41:30.070         | 	"minUR": 2157
+11:41:30.070         | 	"maxUR": 2770
+11:41:30.070         | 	"queueTag": CoopVsAi
+11:41:30.070         | 	"fixedMMValue": 0
+11:41:30.070         | }
+11:41:31.051         | client: send ready message
+11:41:31.118         | client: ADD_PLAYER  0         slapik#1, uid 13975290 status   Active team 1
+11:41:31.188         | client: ADD_PLAYER  1      nokoasium25, uid 14348346 status   Active team 1
+11:41:31.188         | client: ADD_PLAYER  2 Колобок 13, uid 14337926 status   Active team 1
+11:41:31.188         | client: ADD_PLAYER  3 ГарынычЗлыдень, uid 13993544 status   Active team 1
+11:41:31.188         | client: ADD_PLAYER  4          wWw3wWw, uid 156101 status Reserved team 1
+11:41:31.189         | client: ADD_PLAYER  5          RDSF0R_, uid 9097886 status Reserved team 1
+11:41:31.239         | client: ADD_PLAYER 16             Adam, uid 0 status   Active team 1
+11:41:31.239         | client: ADD_PLAYER 17            Helge, uid 0 status   Active team 2
+11:41:31.252         | client: ADD_PLAYER 18           Joshua, uid 0 status   Active team 1
+11:41:31.252         | client: ADD_PLAYER 19            Ethan, uid 0 status   Active team 2
+11:41:31.252         | client: ADD_PLAYER 21            Emily, uid 0 status   Active team 2
+11:41:31.252         | client: ADD_PLAYER 23            Eltom, uid 0 status   Active team 2
+11:41:31.292         | client: ADD_PLAYER 25           Steven, uid 0 status   Active team 2
+11:41:31.292         | client: ADD_PLAYER 27         Nicholas, uid 0 status   Active team 2
+11:41:31.292         | client: ADD_PLAYER 29            David, uid 0 status   Active team 2
+11:41:31.293         | client: ADD_PLAYER 31      Christopher, uid 0 status   Active team 2
+11:41:31.294         | client: UPDATE_PLAYER  5          RDSF0R_, uid 9097886 status   Active team 1
+11:41:31.479         | client: got init message. ping 53, MTU 1350
+11:41:31.483         | ====== level started:  'iron_way_center' ======
+11:41:31.769         | client: UPDATE_PLAYER  4          wWw3wWw, uid 156101 status   Active team 1
+11:41:32.245         | client: player 18 leave game
+11:41:32.245         | client: ADD_PLAYER  6      Gleb_Gamble, uid 11778219 status Reserved team 1
+11:41:34.153         | client: UPDATE_PLAYER  6      Gleb_Gamble, uid 11778219 status   Active team 1
+11:42:28.278         | Quest_Completed callback. questName = 'Solo_Weekly_Pvp_Scrap_Common_2'
+11:42:28.287         | Gameplay statistic. gameResult 'victory'
+11:42:28.287         |      Scrap_Common   9,  score 203, expBase 203, expDailyBonus 4.0, expTotal 634, expBaseFactionTotal 697, expFactionTotal 634
+11:42:28.287         |      quest Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized2: 1 / 3 -> 2 / 3
+11:42:28.287         |      quest Solo_Weekly_Pvp_Scrap_Common_2: 9 / 10 -> 10 / 10
+11:42:28.287         |      quest Quest_detach_pvp_500: 470 / 500 -> 483 / 500
+11:42:28.287         |      quest Clan_Weekly_Quest_Win_Pvp_2: 105 / 200 -> 106 / 200
+11:42:28.287         |      quest Clan_Weekly_Quest_Win_Pvp_3: 105 / 500 -> 106 / 500
+11:42:28.287         |      quest Clan_Weekly_Quest_Win_Pvp_4: 105 / 800 -> 106 / 800
+11:42:28.287         |      quest Clan_Weekly_Quest_Win_Pvp_5: 105 / 1000 -> 106 / 1000
+11:42:28.287         |      quest Clan_Weekly_Quest_Damage_2: 1461635 / 2000000 -> 1462074 / 2000000
+11:42:28.287         |      quest Clan_Weekly_Quest_Damage_3: 1461635 / 6000000 -> 1462074 / 6000000
+11:42:28.287         |      quest Clan_Weekly_Quest_Damage_4: 1461635 / 10000000 -> 1462074 / 10000000
+11:42:28.287         |      quest Clan_Weekly_Quest_Damage_5: 1461635 / 15000000 -> 1462074 / 15000000
+11:42:35.310         | client: player 0 leave game
+11:42:36.965         | client: player 1 leave game
+11:42:37.345         | client: player 2 leave game
+11:42:37.345         | client: player 4 leave game
+11:42:38.294         | client: player 6 leave game
+11:42:46.076         | client: player 3 leave game
+11:44:01.185         | client: avgPing 52.3/55.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:44:01.185         | client: connection closed. MANUALLY_RETURN_TO_MATCHMACKER
+11:44:01.185         | Network stats (bytes per second): avg pushed 1647, max pushed 3210, avg sent 3091, max sent 5668, avg received 8213, max received 23477
+11:44:01.437         | ====== starting level 26: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:44:01.437         | {
+11:44:01.437         | 	"is_hangar": 1
+11:44:01.437         | 	"return_to_MM": 1
+11:44:01.437         | }
+11:44:02.224         | ====== level started:  'hangar' ======
+11:44:02.268         | Gameui. try to reenter into matchmaking queue, mission 'CoopVsAi'
+11:44:02.268         | ResetReturnToMatchmaking: setting up mode MISSION_SELECT
+11:44:02.309         | Stored mission name: CoopVsAi
+11:44:02.309         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+11:44:02.951         | Stored mission name: CoopVsAi
+11:44:03.943         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:44:07.651         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:44:10.659         | Matchmaker_NotifyQueueState: 15 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:44:14.618         | Matchmaker_NotifyQueueState: 29 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:44:17.634         | Matchmaker_NotifyQueueState: 21 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+11:44:19.427         | CL_MatchMaker::ConnectHandler: addr = 130.193.42.245:35014, gsid = 605638910
+11:44:19.467         | client: start connecting to 130.193.42.245:35014...
+11:44:19.651         | client: connected to 130.193.42.245|35014, server guid '1728035055674288', client guid '441353450903242024', setting up session...
+11:44:19.726         | client: connected to dedicated server. gsid: 605638910, hostname: 'wheel05-ya-ru.pxo'
+11:44:19.826         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+11:44:19.826         | client: server assigned id 2
+11:44:19.835         | client: got level load message 'levels/maps/castle_artillery' ConquerCoopVsAi, levelId: 1
+11:44:19.918         | ====== starting level 27: 'levels/maps/castle_artillery' ConquerCoopVsAi client Empty,env=333035 ======
+11:44:19.918         | {
+11:44:19.918         | 	"minUR": 2770
+11:44:19.918         | 	"maxUR": 3621
+11:44:19.918         | 	"queueTag": CoopVsAi
+11:44:19.918         | 	"fixedMMValue": 0
+11:44:19.918         | }
+11:44:24.770         | client: send ready message
+11:44:24.859         | client: ADD_PLAYER  0  C_I_V_I_L_I_A_N, uid 8945234 status Reserved team 1
+11:44:24.859         | client: ADD_PLAYER  1 BaRoNfonTaRik111, uid 6213227 status   Active team 1
+11:44:24.894         | client: ADD_PLAYER  2          RDSF0R_, uid 9097886 status Reserved team 1
+11:44:24.924         | client: ADD_PLAYER  3 ГарынычЗлыдень, uid 13993544 status   Active team 1
+11:44:24.966         | client: ADD_PLAYER 16            Ethan, uid 0 status   Active team 1
+11:44:24.987         | client: ADD_PLAYER 17            Nikki, uid 0 status   Active team 2
+11:44:24.987         | client: ADD_PLAYER 18          Anthony, uid 0 status   Active team 1
+11:44:24.987         | client: ADD_PLAYER 19         Florence, uid 0 status   Active team 2
+11:44:24.987         | client: ADD_PLAYER 20           Joshua, uid 0 status   Active team 1
+11:44:24.987         | client: ADD_PLAYER 21           Sophia, uid 0 status   Active team 2
+11:44:24.988         | client: ADD_PLAYER 22            Joern, uid 0 status   Active team 1
+11:44:24.988         | client: ADD_PLAYER 23            Sarah, uid 0 status   Active team 2
+11:44:25.021         | client: ADD_PLAYER 25            Brian, uid 0 status   Active team 2
+11:44:25.021         | client: ADD_PLAYER 27         Samantha, uid 0 status   Active team 2
+11:44:25.021         | client: ADD_PLAYER 29           Robert, uid 0 status   Active team 2
+11:44:25.040         | client: ADD_PLAYER 31          Madison, uid 0 status   Active team 2
+11:44:25.041         | client: UPDATE_PLAYER  2          RDSF0R_, uid 9097886 status   Active team 1
+11:44:25.216         | client: got init message. ping 54, MTU 1350
+11:44:25.220         | ====== level started:  'castle_artillery' ======
+11:44:25.308         | client: UPDATE_PLAYER  0  C_I_V_I_L_I_A_N, uid 8945234 status   Active team 1
+11:44:32.285         | client: player 22 leave game
+11:44:32.285         | client: ADD_PLAYER  4          wWw3wWw, uid 156101 status Reserved team 1
+11:44:35.332         | client: UPDATE_PLAYER  4          wWw3wWw, uid 156101 status   Active team 1
+11:45:25.968         | NotifyStripeEarned: 9097886@live, PvpCannonRareKill, 1
+11:45:25.968         | NotifyStripeEarned: 9097886@live, PvpMeleeCommonKill, 1
+11:45:32.093         | NotifyStripeEarned: 9097886@live, PvpAssist, 1
+11:45:32.144         | Quest_Completed callback. questName = 'Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized2'
+11:45:32.144         | Quest_Completed callback. questName = 'Quest_detach_pvp_500'
+11:45:32.144         | Gameplay statistic. gameResult 'victory'
+11:45:32.144         |      Scrap_Common  10,  score 1357, expBase 1249, expDailyBonus 4.0, expTotal 3903, expBaseFactionTotal 3903, expFactionTotal 3903
+11:45:32.144         |      quest Daily_4_Wins_Cannon_Rocket_Melee_Mine_Uncategorized2: 2 / 3 -> 3 / 3
+11:45:32.144         |      quest Solo_Weekly_Daily_Quests_2: 0 / 25 -> 1 / 25
+11:45:32.144         |      quest Solo_Weekly_Pvp_Scrap_Common_3: 0 / 15 -> 1 / 15
+11:45:32.144         |      quest Quest_detach_pvp_500: 483 / 500 -> 500 / 500
+11:45:32.144         |      quest Quest_earn_score_repeat_everywhere_3_550: 0 / 3 -> 1 / 3
+11:45:32.144         |      quest Clan_Weekly_Quest_Win_Pvp_2: 106 / 200 -> 107 / 200
+11:45:32.144         |      quest Clan_Weekly_Quest_Win_Pvp_3: 106 / 500 -> 107 / 500
+11:45:32.144         |      quest Clan_Weekly_Quest_Win_Pvp_4: 106 / 800 -> 107 / 800
+11:45:32.144         |      quest Clan_Weekly_Quest_Win_Pvp_5: 106 / 1000 -> 107 / 1000
+11:45:32.144         |      quest Clan_Weekly_Quest_Damage_2: 1462074 / 2000000 -> 1463466 / 2000000
+11:45:32.144         |      quest Clan_Weekly_Quest_Damage_3: 1462074 / 6000000 -> 1463466 / 6000000
+11:45:32.144         |      quest Clan_Weekly_Quest_Damage_4: 1462074 / 10000000 -> 1463466 / 10000000
+11:45:32.144         |      quest Clan_Weekly_Quest_Damage_5: 1462074 / 15000000 -> 1463466 / 15000000
+11:45:38.768         | client: player 3 leave game
+11:45:39.243         | client: player 1 leave game
+11:45:40.393         | client: player 4 leave game
+11:45:41.068         | client: player 0 leave game
+11:46:13.267         | client: avgPing 53.7/54.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+11:46:13.267         | client: connection closed. CLIENT_QUIT
+11:46:13.267         | Network stats (bytes per second): avg pushed 1926, max pushed 3430, avg sent 3572, max sent 5979, avg received 11419, max received 24859
+11:46:13.526         | ====== starting level 28: 'levels/maps/hangar'  single Empty,env=394058 ======
+11:46:13.526         | {
+11:46:13.526         | 	"is_hangar": 1
+11:46:13.526         | }
+11:46:14.388         | ====== level started:  'hangar' ======
+11:50:12.266         | Test drive started from ExhibitionCardWnd
+11:50:13.387         | TestDriveLogic::EraseVisitor called from TestDriveLogic::OnVisitorBadCarDesign
+11:50:13.387         | TestDriveLogic::EraseVisitor called for removed car. Visitor erased.
+11:50:23.309         | HudShowCharacterMsg: Смотрю, ты знаешь, как выбирать верные пути в хаосе. Есть чем поделиться из твоих путешествий?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+11:52:38.968         | TargemServices: RenewAuth: new token = ntKKAAAAAADwZqMljTXXd1CNDVeSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T09:52:38.963Z (drift of 0 sec)
+11:56:18.901         | Test drive started from Hangar
+12:00:13.677         | Test drive started from Hangar
+12:05:11.881  WARNING| Performance warning. Try to load unprecached Dye 'pic_Camo12'
+12:05:11.881  WARNING| Performance warning: texture 'textures/patterns/camouflage12' load synchronously
+12:06:50.877         | Test drive started from Hangar
+12:07:39.380         | TargemServices: RenewAuth: new token = ntKKAAAAAAB7hYKgmGF9gK1KG1eSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T10:07:39.415Z (drift of 0 sec)
+12:08:48.653         | Test drive started from Hangar
+12:10:05.187         | `anonymous-namespace'::EUNotificationsHandler::Clan_RoleChanged
+12:10:26.929         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:10:34.254         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:10:38.654         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:11:04.278         | Test drive started from Hangar
+12:11:39.438  WARNING| Performance warning. Try to load unprecached Dye 'pic_Scientists01'
+12:11:39.438  WARNING| Performance warning: texture 'textures/patterns/scientists01_a' load synchronously
+12:11:39.446  WARNING| Performance warning: texture 'textures/patterns/scientists01_n' load synchronously
+12:11:54.180  WARNING| Performance warning. Try to load unprecached Dye 'pic_Wood01'
+12:11:54.180  WARNING| Performance warning: texture 'textures/patterns/wood01' load synchronously
+12:11:54.196         | Test drive started from Edit
+12:12:18.764         | HudShowCharacterMsg: Что может быть лучше боевой тренировки, а? Правда я бы предпочел заранее ее обговорить…, , avatar_Mask_16, (null), 3.000000, 0xffff3232, (null)
+12:12:18.765         | TestDrive: Changing relationship for visitor car 'VisitorCar1'. New group is 2
+12:12:22.705         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:12:38.414         | HudShowCharacterMsg: Я знал, что не выстою… Твои навыки поражают. Использую этот опыт, чтобы стать сильнее., , avatar_Mask_16, (null), 3.000000, 0xffff3232, (null)
+12:12:38.415         | TestDriveLogic::EraseVisitor called from TestDriveLogic::OnVisitorActivate
+12:12:38.415         | TestDriveLogic::EraseVisitor called for wrecked car
+12:12:39.214         | TestDriveLogic::EraseVisitor called from TestDriveLogic::HideVisitorCars
+12:12:39.214         | TestDriveLogic::EraseVisitor called for removed car. Visitor erased.
+12:13:42.069         | Test drive started from Hangar
+12:15:16.611         | Test drive started from Hangar
+12:16:13.452         | Test drive started from Hangar
+12:17:28.252         | Test drive started from Hangar
+12:17:51.586         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:20:10.361         | MailboxNotificationsHandler::OnMessageReceived 9097886
+12:21:23.776         | Test drive started from Hangar
+12:22:39.810         | TargemServices: RenewAuth: new token = ntKKAAAAAABhhymJn0hr5RQIKVeSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T10:22:39.863Z (drift of 0 sec)
+12:24:29.732         | Stored mission name: CoopVsAi
+12:24:29.732         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+12:24:30.328         | Stored mission name: CoopVsAi
+12:24:31.411         | Matchmaker_NotifyQueueState: 12 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+12:24:35.028         | Matchmaker_NotifyQueueState: 33 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+12:24:35.102         | CL_MatchMaker::ConnectHandler: addr = 89.169.132.47:35492, gsid = 605641675
+12:24:35.144         | client: start connecting to 89.169.132.47:35492...
+12:24:35.302         | client: connected to 89.169.132.47|35492, server guid '1728037470521611', client guid '441353450903242024', setting up session...
+12:24:35.393         | client: connected to dedicated server. gsid: 605641675, hostname: 'wheel05-ya-ru.pxo/live-5p762-bghtz'
+12:24:35.460         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+12:24:35.460         | client: server assigned id 1
+12:24:35.469         | client: got level load message 'levels/maps/island' ConquerCoopVsAi, levelId: 1
+12:24:35.553         | ====== starting level 29: 'levels/maps/island' ConquerCoopVsAi client Empty,env=712284 ======
+12:24:35.553         | {
+12:24:35.553         | 	"minUR": 4000
+12:24:35.553         | 	"maxUR": 4479
+12:24:35.553         | 	"queueTag": CoopVsAi
+12:24:35.553         | 	"fixedMMValue": 0
+12:24:35.553         | }
+12:24:38.449         | client: send ready message
+12:24:38.589         | client: ADD_PLAYER  0     шторм07, uid 14235388 status   Active team 1
+12:24:38.589         | client: ADD_PLAYER  1          RDSF0R_, uid 9097886 status Reserved team 1
+12:24:38.590         | client: ADD_PLAYER  2     Endermit2527, uid 14334733 status   Active team 1
+12:24:38.637         | client: ADD_PLAYER  3   AverageKolenk1, uid 14347243 status   Active team 1
+12:24:38.637         | client: ADD_PLAYER 16            Nikki, uid 0 status   Active team 1
+12:24:38.637         | client: ADD_PLAYER 17           Alyssa, uid 0 status   Active team 2
+12:24:38.683         | client: ADD_PLAYER 18            Emily, uid 0 status   Active team 1
+12:24:38.683         | client: ADD_PLAYER 19            Ethan, uid 0 status   Active team 2
+12:24:38.683         | client: ADD_PLAYER 20           Hannah, uid 0 status   Active team 1
+12:24:38.684         | client: ADD_PLAYER 21            Grace, uid 0 status   Active team 2
+12:24:38.684         | client: ADD_PLAYER 22          Anthony, uid 0 status   Active team 1
+12:24:38.684         | client: ADD_PLAYER 23          Kenneth, uid 0 status   Active team 2
+12:24:38.684         | client: ADD_PLAYER 25          Dominic, uid 0 status   Active team 2
+12:24:38.684         | client: ADD_PLAYER 27          William, uid 0 status   Active team 2
+12:24:38.684         | client: ADD_PLAYER 29         Samantha, uid 0 status   Active team 2
+12:24:38.684         | client: ADD_PLAYER 31             Ryan, uid 0 status   Active team 2
+12:24:38.685         | client: UPDATE_PLAYER  1          RDSF0R_, uid 9097886 status   Active team 1
+12:24:38.916         | client: got init message. ping 48, MTU 1350
+12:24:38.916         | client: player 22 leave game
+12:24:38.917         | client: ADD_PLAYER  4           husman, uid 14329105 status Reserved team 1
+12:24:39.018         | ====== level started:  'island' ======
+12:24:39.576         | client: player 20 leave game
+12:24:39.576         | client: ADD_PLAYER  5      Machoman_55, uid 14319622 status Reserved team 1
+12:24:41.079         | client: UPDATE_PLAYER  4           husman, uid 14329105 status   Active team 1
+12:24:42.282         | client: UPDATE_PLAYER  5      Machoman_55, uid 14319622 status   Active team 1
+12:24:42.636         | client: player 18 leave game
+12:24:42.636         | client: ADD_PLAYER  6         Scоffer, uid 14126883 status Reserved team 1
+12:24:45.145         | client: UPDATE_PLAYER  6         Scоffer, uid 14126883 status   Active team 1
+12:24:45.852         | client: player 16 leave game
+12:24:45.852         | client: ADD_PLAYER  7       JustnewOWO, uid 13551852 status Reserved team 1
+12:24:48.885         | client: UPDATE_PLAYER  7       JustnewOWO, uid 13551852 status   Active team 1
+12:25:39.036         | NotifyStripeEarned: 9097886@live, PvpSuperiority, 1
+12:25:39.094         | Gameplay statistic. gameResult 'victory'
+12:25:39.094         |      Scrap_Common   9,  score 584, expBase 584, expDailyBonus 4.0, expTotal 1825, expBaseFactionTotal 2007, expFactionTotal 1825
+12:25:39.094         |      quest Solo_Weekly_Pvp_Scrap_Common_3: 1 / 15 -> 2 / 15
+12:25:39.094         |      quest Quest_game_complete_propellers_all_pvp_3: 0 / 3 -> 1 / 3
+12:25:39.094         |      quest Quest_win_scrap_pvp_5: 0 / 5 -> 1 / 5
+12:25:39.094         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 6849 / 15000 -> 8188 / 15000
+12:25:39.094         |      quest Quest_win_propellers_all_pvp_3: 0 / 3 -> 1 / 3
+12:25:39.094         |      quest Quest_damage_done_machineguns_shotguns_everywhere_25000: 0 / 25000 -> 1339 / 25000
+12:25:39.094         |      quest Quest_earn_score_propellers_repeat_all_pvp_3_550: 0 / 3 -> 1 / 3
+12:25:39.094         |      quest Quest_earn_score_repeat_everywhere_3_550: 1 / 3 -> 2 / 3
+12:25:39.094         |      quest Clan_Weekly_Quest_Win_Pvp_2: 107 / 200 -> 108 / 200
+12:25:39.094         |      quest Clan_Weekly_Quest_Win_Pvp_3: 107 / 500 -> 108 / 500
+12:25:39.094         |      quest Clan_Weekly_Quest_Win_Pvp_4: 107 / 800 -> 108 / 800
+12:25:39.094         |      quest Clan_Weekly_Quest_Win_Pvp_5: 107 / 1000 -> 108 / 1000
+12:25:39.094         |      quest Clan_Weekly_Quest_Damage_2: 1469024 / 2000000 -> 1471064 / 2000000
+12:25:39.094         |      quest Clan_Weekly_Quest_Damage_3: 1469024 / 6000000 -> 1471064 / 6000000
+12:25:39.094         |      quest Clan_Weekly_Quest_Damage_4: 1469024 / 10000000 -> 1471064 / 10000000
+12:25:39.094         |      quest Clan_Weekly_Quest_Damage_5: 1469024 / 15000000 -> 1471064 / 15000000
+12:25:39.369         | Quest_Completed callback. questName = 'BattlePass2023_01_daily_q03'
+12:25:46.353         | client: player 0 leave game
+12:25:47.228         | client: player 6 leave game
+12:25:47.494         | client: player 7 leave game
+12:25:48.677         | client: player 3 leave game
+12:25:49.293         | client: player 2 leave game
+12:25:49.869         | client: player 4 leave game
+12:25:51.202         | client: player 5 leave game
+12:25:52.519         | client: avgPing 47.9/51.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+12:25:52.519         | client: connection closed. CLIENT_QUIT
+12:25:52.519         | Network stats (bytes per second): avg pushed 2454, max pushed 3647, avg sent 4428, max sent 6309, avg received 16379, max received 29001
+12:25:52.787         | ====== starting level 30: 'levels/maps/hangar'  single Empty,env=394058 ======
+12:25:52.787         | {
+12:25:52.787         | 	"is_hangar": 1
+12:25:52.787         | }
+12:25:53.656         | ====== level started:  'hangar' ======
+12:26:01.348         | Stored mission name: CoopVsAi
+12:26:01.348         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+12:26:01.760         | Stored mission name: CoopVsAi
+12:26:02.427         | Matchmaker_NotifyQueueState: 19 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+12:26:02.927         | CL_MatchMaker::ConnectHandler: addr = 185.206.164.117:35063, gsid = 605641783
+12:26:02.973         | client: start connecting to 185.206.164.117:35063...
+12:26:03.143         | client: connected to 185.206.164.117|35063, server guid '1728037556222301', client guid '441353450903242024', setting up session...
+12:26:03.210         | client: connected to dedicated server. gsid: 605641783, hostname: 'wheel02-ya-ru.pxo'
+12:26:03.285         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+12:26:03.285         | client: server assigned id 4
+12:26:03.294         | client: got level load message 'levels/maps/island' ConquerCoopVsAi, levelId: 1
+12:26:03.376         | ====== starting level 31: 'levels/maps/island' ConquerCoopVsAi client Empty,env=712284 ======
+12:26:03.376         | {
+12:26:03.376         | 	"minUR": 3665
+12:26:03.376         | 	"maxUR": 4726
+12:26:03.376         | 	"queueTag": CoopVsAi
+12:26:03.376         | 	"fixedMMValue": 0
+12:26:03.376         | }
+12:26:04.148         | client: send ready message
+12:26:04.299         | client: ADD_PLAYER  0       MelkiSarik, uid 13964047 status   Active team 1
+12:26:04.299         | client: ADD_PLAYER  1         _MohiTo_, uid 14307613 status   Active team 1
+12:26:04.299         | client: ADD_PLAYER  2     Endermit2527, uid 14334733 status   Active team 1
+12:26:04.353         | client: ADD_PLAYER  3           husman, uid 14329105 status   Active team 1
+12:26:04.354         | client: ADD_PLAYER  4          RDSF0R_, uid 9097886 status Reserved team 1
+12:26:04.354         | client: ADD_PLAYER 16           Steven, uid 0 status   Active team 1
+12:26:04.375         | client: ADD_PLAYER 17           Sandra, uid 0 status   Active team 2
+12:26:04.375         | client: ADD_PLAYER 18             Adam, uid 0 status   Active team 1
+12:26:04.405         | client: ADD_PLAYER 19           George, uid 0 status   Active team 2
+12:26:04.405         | client: ADD_PLAYER 20           Robert, uid 0 status   Active team 1
+12:26:04.405         | client: ADD_PLAYER 21         Matthias, uid 0 status   Active team 2
+12:26:04.405         | client: ADD_PLAYER 23             Alec, uid 0 status   Active team 2
+12:26:04.405         | client: ADD_PLAYER 25            Bernd, uid 0 status   Active team 2
+12:26:04.424         | client: ADD_PLAYER 27             Emma, uid 0 status   Active team 2
+12:26:04.425         | client: ADD_PLAYER 29            Sarah, uid 0 status   Active team 2
+12:26:04.425         | client: ADD_PLAYER 31            Ethan, uid 0 status   Active team 2
+12:26:04.425         | client: UPDATE_PLAYER  4          RDSF0R_, uid 9097886 status   Active team 1
+12:26:04.497         | client: got init message. ping 53, MTU 1350
+12:26:04.501         | ====== level started:  'island' ======
+12:27:07.186         | NotifyStripeEarned: 9097886@live, PvpFlawless, 1
+12:27:07.186         | Gameplay statistic. gameResult 'victory'
+12:27:07.186         |      Scrap_Common   9,  score 441, expBase 441, expDailyBonus 3.0, expTotal 1102, expBaseFactionTotal 1102, expFactionTotal 1102
+12:27:07.186         |      quest Solo_Weekly_Pvp_Scrap_Common_3: 2 / 15 -> 3 / 15
+12:27:07.186         |      quest Quest_game_complete_propellers_all_pvp_3: 1 / 3 -> 2 / 3
+12:27:07.186         |      quest Quest_win_scrap_pvp_5: 1 / 5 -> 2 / 5
+12:27:07.186         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 8188 / 15000 -> 8610 / 15000
+12:27:07.186         |      quest Quest_win_propellers_all_pvp_3: 1 / 3 -> 2 / 3
+12:27:07.186         |      quest Quest_damage_done_machineguns_shotguns_everywhere_25000: 1339 / 25000 -> 1761 / 25000
+12:27:07.186         |      quest Clan_Weekly_Quest_Win_Pvp_2: 108 / 200 -> 109 / 200
+12:27:07.186         |      quest Clan_Weekly_Quest_Win_Pvp_3: 108 / 500 -> 109 / 500
+12:27:07.187         |      quest Clan_Weekly_Quest_Win_Pvp_4: 108 / 800 -> 109 / 800
+12:27:07.187         |      quest Clan_Weekly_Quest_Win_Pvp_5: 108 / 1000 -> 109 / 1000
+12:27:07.187         |      quest Clan_Weekly_Quest_Damage_2: 1471064 / 2000000 -> 1471820 / 2000000
+12:27:07.187         |      quest Clan_Weekly_Quest_Damage_3: 1471064 / 6000000 -> 1471820 / 6000000
+12:27:07.187         |      quest Clan_Weekly_Quest_Damage_4: 1471064 / 10000000 -> 1471820 / 10000000
+12:27:07.187         |      quest Clan_Weekly_Quest_Damage_5: 1471064 / 15000000 -> 1471820 / 15000000
+12:27:14.077         | client: player 2 leave game
+12:27:15.193         | client: player 0 leave game
+12:27:15.285         | client: avgPing 53.1/55.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+12:27:15.285         | client: connection closed. CLIENT_QUIT
+12:27:15.285         | Network stats (bytes per second): avg pushed 2160, max pushed 3285, avg sent 3894, max sent 5622, avg received 12124, max received 24695
+12:27:15.543         | ====== starting level 32: 'levels/maps/hangar'  single Empty,env=394058 ======
+12:27:15.543         | {
+12:27:15.543         | 	"is_hangar": 1
+12:27:15.543         | }
+12:27:16.490         | ====== level started:  'hangar' ======
+12:27:32.731         | Stored mission name: CoopVsAi
+12:27:32.731         | StartMatchmaking: 'solo', mission 'CoopVsAi', region 'UNKNOWN' ,rotatingParams: '{"expireTime":0,"mapOptionList":"helicopter_zeppelin,helicopter_gorge,helicopter_downtown,bridge,abandoned_ship,iron_way_center,rockcity_2bases,sand_valley,geopp,tower,factory,powerplant:AssaultCoopVsAi;helicopter_valley,helicopter_guilin,cityruin,sand_crater,arizona_silo,castle_artillery,island,sinto,quarry,the_wall,vulkan,building_yard3:ConquerCoopVsAi","botList":""}'
+12:27:33.110         | Stored mission name: CoopVsAi
+12:27:34.402         | Matchmaker_NotifyQueueState: 31 avg queue time sec, queueTag: CoopVsAi, inQueue: true
+12:27:34.851         | CL_MatchMaker::ConnectHandler: addr = 89.169.132.47:35182, gsid = 605641895
+12:27:34.891         | client: start connecting to 89.169.132.47:35182...
+12:27:35.043         | client: connected to 89.169.132.47|35182, server guid '1728037638654884', client guid '441353450903242024', setting up session...
+12:27:35.109         | client: connected to dedicated server. gsid: 605641895, hostname: 'wheel02-ya-ru.pxo/live-5p762-k6pfr'
+12:27:35.176         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+12:27:35.176         | client: server assigned id 5
+12:27:35.185         | client: got level load message 'levels/maps/iron_way_center' AssaultCoopVsAi, levelId: 1
+12:27:35.257         | ====== starting level 33: 'levels/maps/iron_way_center' AssaultCoopVsAi client Empty,env=732642 ======
+12:27:35.257         | {
+12:27:35.257         | 	"minUR": 4000
+12:27:35.257         | 	"maxUR": 5012
+12:27:35.257         | 	"queueTag": CoopVsAi
+12:27:35.257         | 	"fixedMMValue": 0
+12:27:35.257         | }
+12:27:36.217         | client: send ready message
+12:27:36.359         | client: ADD_PLAYER  0     шторм07, uid 14235388 status   Active team 1
+12:27:36.359         | client: ADD_PLAYER  1           husman, uid 14329105 status   Active team 1
+12:27:36.360         | client: ADD_PLAYER  2      DemonDFrost, uid 1002022 status   Active team 1
+12:27:36.405         | client: ADD_PLAYER  3         dobrodub, uid 2546751 status   Active team 1
+12:27:36.405         | client: ADD_PLAYER  4   He_CTpeJL9INTE, uid 12723176 status Reserved team 1
+12:27:36.405         | client: ADD_PLAYER  5          RDSF0R_, uid 9097886 status Reserved team 1
+12:27:36.405         | client: ADD_PLAYER 16          William, uid 0 status   Active team 1
+12:27:36.406         | client: ADD_PLAYER 17           Oliver, uid 0 status   Active team 2
+12:27:36.406         | client: ADD_PLAYER 18            Joern, uid 0 status   Active team 1
+12:27:36.455         | client: ADD_PLAYER 19          Dominic, uid 0 status   Active team 2
+12:27:36.455         | client: ADD_PLAYER 21           Sergei, uid 0 status   Active team 2
+12:27:36.455         | client: ADD_PLAYER 23           George, uid 0 status   Active team 2
+12:27:36.456         | client: ADD_PLAYER 25            Robyn, uid 0 status   Active team 2
+12:27:36.456         | client: ADD_PLAYER 27            James, uid 0 status   Active team 2
+12:27:36.456         | client: ADD_PLAYER 29           Sandra, uid 0 status   Active team 2
+12:27:36.456         | client: ADD_PLAYER 31             Adam, uid 0 status   Active team 2
+12:27:36.457         | client: UPDATE_PLAYER  5          RDSF0R_, uid 9097886 status   Active team 1
+12:27:36.682         | client: got init message. ping 47, MTU 1350
+12:27:36.845         | ====== level started:  'iron_way_center' ======
+12:27:41.669         | client: UPDATE_PLAYER  4   He_CTpeJL9INTE, uid 12723176 status   Active team 1
+12:28:26.120         | NotifyStripeEarned: 9097886@live, PvpAutocannonRareKill, 1
+12:28:44.469         | Quest_Completed callback. questName = 'Quest_game_complete_propellers_all_pvp_3'
+12:28:44.469         | Quest_Completed callback. questName = 'Quest_win_propellers_all_pvp_3'
+12:28:44.469         | Quest_Completed callback. questName = 'Quest_earn_score_repeat_everywhere_3_550'
+12:28:44.478         | Gameplay statistic. gameResult 'victory'
+12:28:44.478         |      Scrap_Common   9,  score 581, expBase 581, expDailyBonus 3.0, expTotal 1452, expBaseFactionTotal 1452, expFactionTotal 1452
+12:28:44.478         |      quest Solo_Weekly_Pvp_Scrap_Common_3: 3 / 15 -> 4 / 15
+12:28:44.478         |      quest Quest_game_complete_propellers_all_pvp_3: 2 / 3 -> 3 / 3
+12:28:44.478         |      quest Quest_win_scrap_pvp_5: 2 / 5 -> 3 / 5
+12:28:44.478         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 8610 / 15000 -> 9720 / 15000
+12:28:44.478         |      quest Quest_win_propellers_all_pvp_3: 2 / 3 -> 3 / 3
+12:28:44.478         |      quest Quest_damage_done_machineguns_shotguns_everywhere_25000: 1761 / 25000 -> 2871 / 25000
+12:28:44.478         |      quest Quest_earn_score_propellers_repeat_all_pvp_3_550: 1 / 3 -> 2 / 3
+12:28:44.478         |      quest Quest_earn_score_repeat_everywhere_3_550: 2 / 3 -> 3 / 3
+12:28:44.478         |      quest Clan_Weekly_Quest_Win_Pvp_2: 110 / 200 -> 111 / 200
+12:28:44.478         |      quest Clan_Weekly_Quest_Win_Pvp_3: 110 / 500 -> 111 / 500
+12:28:44.478         |      quest Clan_Weekly_Quest_Win_Pvp_4: 110 / 800 -> 111 / 800
+12:28:44.478         |      quest Clan_Weekly_Quest_Win_Pvp_5: 110 / 1000 -> 111 / 1000
+12:28:44.478         |      quest Clan_Weekly_Quest_Damage_2: 1475145 / 2000000 -> 1477157 / 2000000
+12:28:44.478         |      quest Clan_Weekly_Quest_Damage_3: 1475145 / 6000000 -> 1477157 / 6000000
+12:28:44.478         |      quest Clan_Weekly_Quest_Damage_4: 1475145 / 10000000 -> 1477157 / 10000000
+12:28:44.478         |      quest Clan_Weekly_Quest_Damage_5: 1475145 / 15000000 -> 1477157 / 15000000
+12:28:44.478         | NotifyStripeEarned: 9097886@live, PvpInvader, 1
+12:28:44.478         | NotifyStripeEarned: 9097886@live, PvpFlawless, 1
+12:28:50.402         | client: player 2 leave game
+12:28:51.460         | client: player 0 leave game
+12:28:52.743         | client: player 1 leave game
+12:28:53.927         | client: player 4 leave game
+12:28:56.752         | client: avgPing 47.0/48.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+12:28:56.752         | client: connection closed. CLIENT_QUIT
+12:28:56.752         | Network stats (bytes per second): avg pushed 2486, max pushed 3407, avg sent 4459, max sent 5903, avg received 13207, max received 26062
+12:28:57.005         | ====== starting level 34: 'levels/maps/hangar'  single Empty,env=394058 ======
+12:28:57.005         | {
+12:28:57.005         | 	"is_hangar": 1
+12:28:57.005         | }
+12:28:57.825         | ====== level started:  'hangar' ======
+12:31:08.775         | Test drive started from ExhibitionCardWnd
+12:31:20.302         | HudShowCharacterMsg: С каждым днем выживших все меньше, но ты еще избегаешь смерти! Уважаю!, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:31:38.104  WARNING| frame 989001: 136 ms spike
+12:33:03.061         | Test drive started from ExhibitionCardWnd
+12:33:23.112         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:33:53.395  WARNING| frame 1005182: 117 ms spike
+12:34:03.301         | Test drive started from ExhibitionCardWnd
+12:34:16.320         | HudShowCharacterMsg: С каждым днем выживших все меньше, но ты еще избегаешь смерти! Уважаю!, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:35:10.584         | HudShowCharacterMsg: Хм... ты явно не ищешь врагов. Может мы даже и поладить сможем., Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:35:21.348  WARNING| frame 1015705: 105 ms spike
+12:36:10.125         | Test drive started from ExhibitionCardWnd
+12:36:30.743         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:36:47.853  WARNING| CarPart::EmitDeathBlow::Stack
+12:36:47.853  WARNING| 	00: Type: 'CarPart', id: 452177, def = 'CarPart_ModuleAmmoBig_epic', netId = 7872, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	01: Type: 'CarPart', id: 452192, def = 'CarPart_ModuleAmmoBig_epic', netId = 7902, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	02: Type: 'CarPart', id: 452193, def = 'CarPart_ModuleAmmoBig_epic', netId = 7904, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	03: Type: 'CarPart', id: 452189, def = 'CarPart_ModuleAmmoBig_epic', netId = 7896, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| CarPart::EmitDeathBlow::Stack
+12:36:47.853  WARNING| 	00: Type: 'CarPart', id: 452177, def = 'CarPart_ModuleAmmoBig_epic', netId = 7872, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	01: Type: 'CarPart', id: 452192, def = 'CarPart_ModuleAmmoBig_epic', netId = 7902, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	02: Type: 'CarPart', id: 452193, def = 'CarPart_ModuleAmmoBig_epic', netId = 7904, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	03: Type: 'CarPart', id: 452189, def = 'CarPart_ModuleAmmoBig_epic', netId = 7896, gameLayer = 'Dynamic'
+12:36:47.853  WARNING| 	04: Type: 'CarPart', id: 452190, def = 'CarPart_ModuleAmmoBig_epic', netId = 7898, gameLayer = 'Dynamic'
+12:37:02.792  WARNING| frame 1027836: 102 ms spike
+12:37:40.158         | TargemServices: RenewAuth: new token = ntKKAAAAAABAqNcpByDOZSHFNleSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T10:37:40.228Z (drift of 0 sec)
+12:39:14.246         | Stored mission name: Mission_MetaPve_Medium_Plastic
+12:39:14.247         | StartMatchmaking: 'solo', mission 'Mission_MetaPve_Medium_Plastic', region 'UNKNOWN' ,rotatingParams: '{"expireTime":1728039600000,"mapOptionList":"riverport:Pve_Commtowers","botList":"scientists"}'
+12:39:14.841         | Stored mission name: Mission_MetaPve_Medium_Plastic
+12:39:15.508         | Matchmaker_NotifyQueueState: 36 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+12:39:16.141         | CL_MatchMaker::ConnectHandler: addr = 130.193.42.245:35022, gsid = 605642779
+12:39:16.183         | client: start connecting to 130.193.42.245:35022...
+12:39:16.358         | client: connected to 130.193.42.245|35022, server guid '1728038317293735', client guid '441353450903242024', setting up session...
+12:39:16.441         | client: connected to dedicated server. gsid: 605642779, hostname: 'wheel05-ya-ru.pxo'
+12:39:16.516         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+12:39:16.516         | client: server assigned id 3
+12:39:16.525         | client: got level load message 'levels/maps/riverport' Pve_Commtowers, levelId: 1
+12:39:16.631         | ====== starting level 35: 'levels/maps/riverport' Pve_Commtowers client Empty,env=705441 ======
+12:39:16.631         | {
+12:39:16.631         | 	"minUR": 4258
+12:39:16.631         | 	"maxUR": 5168
+12:39:16.631         | 	"queueTag": QMetaPve_Medium
+12:39:16.631         | 	"fixedMMValue": 0
+12:39:16.631         | 	"difficulty": 1
+12:39:16.631         | 	"botlist": scientists
+12:39:16.631         | }
+12:39:19.979         | client: send ready message
+12:39:20.147         | client: ADD_PLAYER  0        ZERO15402, uid 12344065 status   Active team 1
+12:39:20.147         | client: ADD_PLAYER  1       frbb6dk9w8, uid 13317122 status Reserved team 1
+12:39:20.148         | client: ADD_PLAYER  2        _JULIA_#1, uid 14276762 status   Active team 1
+12:39:20.197         | client: ADD_PLAYER  3          RDSF0R_, uid 9097886 status Reserved team 1
+12:39:20.250         | client: UPDATE_PLAYER  3          RDSF0R_, uid 9097886 status   Active team 1
+12:39:20.342         | client: got init message. ping 53, MTU 1350
+12:39:20.345         | ====== level started:  'riverport' ======
+12:39:40.900         | client: RESET_RESERVED_PLAYER  1       frbb6dk9w8, uid 13317122@live status Reserved team 1
+12:39:47.318         | HudShowCharacterMsg: #Commtowers_Tower1Def_scientists_text2, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:39:52.043         | client: ADD_PLAYER  1        Kostya692, uid 7687726 status Reserved team 1
+12:39:56.475         | client: UPDATE_PLAYER  1        Kostya692, uid 7687726 status   Active team 1
+12:40:19.625         | NotifyStripeEarned: 9097886@live, PveDestroyWheel, 1
+12:40:20.067         | Quest_Completed callback. questName = 'BattlePass2023_01_daily_q04'
+12:40:48.760         | NotifyStripeEarned: 9097886@live, PveDestroyWeapon, 1
+12:40:53.960         | HudShowCharacterMsg: #Commtowers_LoadTower2_scientists_text, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:41:46.499         | HudShowCharacterMsg: #Commtowers_Tower2Def_scientists_text, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:42:46.041  WARNING| Client: received Entity sync notification #0 for entity with netId 7346, but entity doesn't exist(def 'CarPart_Stealth_epic')
+12:44:30.532         | HudShowCharacterMsg: #Commtowers_Tower1Def2_scientists_text3, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:46:45.233         | NotifyStripeEarned: 9097886@live, PveDestroyWheel, 1
+12:47:37.458         | HudShowCharacterMsg: #Commtowers_Boss_scientists_text, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:50:00.681         | HudShowCharacterMsg: #Commtowers_Win_scientists_text3, #Mask_Scientists_1_name, avatar_scientists_1, CharacterEnemy, 10.000000, enemy, 
+12:50:01.115         | Quest_Completed callback. questName = 'Solo_Weekly_Pve_All'
+12:50:01.116         | Gameplay statistic. gameResult 'victory'
+12:50:01.116         |      Plastic  18,  score 1045, expBase 1045, expDailyBonus 3.0, expTotal 5225, expBaseFactionTotal 5225, expFactionTotal 5225
+12:50:01.116         |      quest Solo_Weekly_Pve_All: 3 / 4 -> 4 / 4
+12:50:01.116         |      quest Quest_damage_done_machineguns_shotguns_everywhere_25000: 2871 / 25000 -> 18122 / 25000
+12:50:01.116         |      quest Quest_earn_mechanics_experience_everywhere_10000: 0 / 10000 -> 5225 / 10000
+12:50:01.116         |      quest Clan_Weekly_Quest_Win_Pve_1: 14 / 20 -> 15 / 20
+12:50:01.116         |      quest Clan_Weekly_Quest_Win_Pve_2: 14 / 40 -> 15 / 40
+12:50:01.116         |      quest Clan_Weekly_Quest_Win_Pve_3: 14 / 100 -> 15 / 100
+12:50:01.116         |      quest Clan_Weekly_Quest_Win_Pve_4: 14 / 150 -> 15 / 150
+12:50:01.116         |      quest Clan_Weekly_Quest_Win_Pve_5: 14 / 250 -> 15 / 250
+12:50:01.116         |      quest Clan_Weekly_Quest_Damage_2: 1477157 / 2000000 -> 1502029 / 2000000
+12:50:01.116         |      quest Clan_Weekly_Quest_Damage_3: 1477157 / 6000000 -> 1502029 / 6000000
+12:50:01.116         |      quest Clan_Weekly_Quest_Damage_4: 1477157 / 10000000 -> 1502029 / 10000000
+12:50:01.116         |      quest Clan_Weekly_Quest_Damage_5: 1477157 / 15000000 -> 1502029 / 15000000
+12:50:10.581         | client: player 0 leave game
+12:50:13.648         | client: player 2 leave game
+12:50:17.764         | client: avgPing 53.2/56.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+12:50:17.764         | client: connection closed. CLIENT_QUIT
+12:50:17.764         | Network stats (bytes per second): avg pushed 2661, max pushed 3251, avg sent 4685, max sent 5581, avg received 13249, max received 21495
+12:50:18.032         | ====== starting level 36: 'levels/maps/hangar'  single Empty,env=394058 ======
+12:50:18.032         | {
+12:50:18.032         | 	"is_hangar": 1
+12:50:18.032         | }
+12:50:18.902         | ====== level started:  'hangar' ======
+12:52:40.564         | TargemServices: RenewAuth: new token = ntKKAAAAAADQEIX-Gg_qUVyCRFeSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T10:52:40.639Z (drift of 0 sec)
+12:54:31.280         | NotifyStripeEarned: 9097886@live, TradeSellSellerLow, 1
+12:58:41.937         | Test drive started from ExhibitionCardWnd
+12:59:14.289         | HudShowCharacterMsg: Смотри, кого принесло! Хочешь разжиться тем, что другие оставили в пыли?, Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:59:28.679         | HudShowCharacterMsg: Хм... ты явно не ищешь врагов. Может мы даже и поладить сможем., Бей Скара, avatar_bei_scara, (null), 5.000000, 0xff00ff00, (null)
+12:59:35.959         | CarEditor:SpawnMobCars: 4 Mobs spawned
+13:03:39.454         | NotifyStripeEarned: 9097886@live, TradeSellItemVeryRare, 1
+13:07:40.953         | TargemServices: RenewAuth: new token = ntKKAAAAAAAg_9TKrllZfZo_UleSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T11:07:41.053Z (drift of 0 sec)
+13:15:06.497  WARNING| frame 1265033: 184 ms spike
+13:22:41.366         | TargemServices: RenewAuth: new token = ntKKAAAAAAB7o7o8F_ShjOn8X1eSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T11:22:41.484Z (drift of 0 sec)
+13:26:50.415         | Test drive started from Hangar
+13:27:50.905         | Test drive started from Hangar
+13:27:55.988         | Test drive started from Hangar
+13:28:35.077         | Stored mission name: Mission_MetaPve_Medium_Plastic
+13:28:35.077         | StartMatchmaking: 'solo', mission 'Mission_MetaPve_Medium_Plastic', region 'UNKNOWN' ,rotatingParams: '{"expireTime":1728041400000,"mapOptionList":"rockcity:Pve_Commtowers","botList":"firestarters"}'
+13:28:35.499         | Stored mission name: Mission_MetaPve_Medium_Plastic
+13:28:35.923         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:39.581         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:42.581         | Matchmaker_NotifyQueueState: 33 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:46.606         | Matchmaker_NotifyQueueState: 19 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:50.581         | Matchmaker_NotifyQueueState: 17 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:53.623         | Matchmaker_NotifyQueueState: 28 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:28:57.540         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:00.575         | Matchmaker_NotifyQueueState: 18 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:03.590         | Matchmaker_NotifyQueueState: 31 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:07.540         | Matchmaker_NotifyQueueState: 28 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:10.557         | Matchmaker_NotifyQueueState: 19 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:13.565         | Matchmaker_NotifyQueueState: 21 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:16.615         | Matchmaker_NotifyQueueState: 14 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:20.565         | Matchmaker_NotifyQueueState: 27 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:23.581         | Matchmaker_NotifyQueueState: 14 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:27.540         | Matchmaker_NotifyQueueState: 15 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:30.590         | Matchmaker_NotifyQueueState: 16 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:34.590         | Matchmaker_NotifyQueueState: 24 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:37.631         | Matchmaker_NotifyQueueState: 12 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: true
+13:29:41.423         | CL_MatchMaker::ConnectHandler: addr = 89.169.132.47:35561, gsid = 605646502
+13:29:41.464         | client: start connecting to 89.169.132.47:35561...
+13:29:41.564         | Matchmaker_NotifyQueueState: 23 avg queue time sec, queueTag: QMetaPve_Medium, inQueue: false
+13:29:41.623         | client: connected to 89.169.132.47|35561, server guid '1728041375238740', client guid '441353450903242024', setting up session...
+13:29:41.690         | client: connected to dedicated server. gsid: 605646502, hostname: 'wheel01-ya-ru.pxo/live-5p762-bknhx'
+13:29:41.756         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+13:29:41.756         | client: server assigned id 0
+13:29:41.766         | client: got level load message 'levels/maps/rockcity' Pve_Commtowers, levelId: 1
+13:29:41.850         | ====== starting level 37: 'levels/maps/rockcity' Pve_Commtowers client Empty,env=113636 ======
+13:29:41.850         | {
+13:29:41.850         | 	"minUR": 4015
+13:29:41.850         | 	"maxUR": 4546
+13:29:41.850         | 	"queueTag": QMetaPve_Medium
+13:29:41.850         | 	"fixedMMValue": 0
+13:29:41.850         | 	"difficulty": 1
+13:29:41.850         | 	"botlist": firestarters
+13:29:41.850         | }
+13:29:44.430         | client: send ready message
+13:29:44.572         | client: ADD_PLAYER  0          RDSF0R_, uid 9097886 status Reserved team 1
+13:29:44.572         | client: ADD_PLAYER  1         лис#7, uid 14334840 status   Active team 1
+13:29:44.573         | client: ADD_PLAYER  2       matvey2045, uid 14309151 status Reserved team 1
+13:29:44.638         | client: UPDATE_PLAYER  0          RDSF0R_, uid 9097886 status   Active team 1
+13:29:44.701         | client: got init message. ping 48, MTU 1350
+13:29:44.704         | ====== level started:  'rockcity' ======
+13:29:45.651         | client: UPDATE_PLAYER  2       matvey2045, uid 14309151 status   Active team 1
+13:29:52.958         | HudShowCharacterMsg: #Commtowers_Start_firestarters_text, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:30:15.217         | NotifyStripeEarned: 9097886@live, PveDestroyWeapon, 1
+13:30:38.657         | HudShowCharacterMsg: #Commtowers_Tower1Def_firestarters_text3, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:32:05.591         | HudShowCharacterMsg: #Commtowers_LoadTower2_firestarters_text3, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:32:53.257         | HudShowCharacterMsg: #Commtowers_Tower2Def_firestarters_text3, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:35:35.799         | HudShowCharacterMsg: #Commtowers_Tower1Def2_firestarters_text3, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:37:31.398         | NotifyStripeEarned: 9097886@live, PveDestroyWeapon, 1
+13:37:41.773         | TargemServices: RenewAuth: new token = ntKKAAAAAADBKHf9ZB0PkiK6bVeSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T11:37:41.892Z (drift of 0 sec)
+13:37:52.789         | NotifyStripeEarned: 9097886@live, PveFirestartersEliteMediumKill, 1
+13:38:14.707         | HudShowCharacterMsg: #Commtowers_Boss_firestarters_text3, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:39:33.423         | HudShowCharacterMsg: #Commtowers_Win_firestarters_text2, #Blockpost_firestarters_caption, avatar_firestarters_03, CharacterEnemy, 10.000000, enemy, 
+13:39:33.705         | NotifyStripeEarned: 9097886@live, PveMvp, 1
+13:39:33.750         | Quest_Completed callback. questName = 'Quest_damage_done_machineguns_shotguns_everywhere_25000'
+13:39:33.750         | Quest_Completed callback. questName = 'Quest_earn_mechanics_experience_everywhere_10000'
+13:39:33.751         | Gameplay statistic. gameResult 'victory'
+13:39:33.751         |      Plastic  23,  score 1344, expBase 1344, expDailyBonus 3.0, expTotal 6720, expBaseFactionTotal 6720, expFactionTotal 6720
+13:39:33.751         |      quest Solo_Weekly_Pve_Medium_Hard_Levi: 0 / 5 -> 1 / 5
+13:39:33.751         |      quest Quest_damage_done_machineguns_shotguns_everywhere_25000: 18122 / 25000 -> 25000 / 25000
+13:39:33.751         |      quest Quest_earn_mechanics_experience_everywhere_10000: 5225 / 10000 -> 10000 / 10000
+13:39:33.751         |      quest Clan_Weekly_Quest_Win_Pve_1: 16 / 20 -> 17 / 20
+13:39:33.751         |      quest Clan_Weekly_Quest_Win_Pve_2: 16 / 40 -> 17 / 40
+13:39:33.751         |      quest Clan_Weekly_Quest_Win_Pve_3: 16 / 100 -> 17 / 100
+13:39:33.751         |      quest Clan_Weekly_Quest_Win_Pve_4: 16 / 150 -> 17 / 150
+13:39:33.751         |      quest Clan_Weekly_Quest_Win_Pve_5: 16 / 250 -> 17 / 250
+13:39:33.751         |      quest Clan_Weekly_Quest_Damage_2: 1532256 / 2000000 -> 1563395 / 2000000
+13:39:33.751         |      quest Clan_Weekly_Quest_Damage_3: 1532256 / 6000000 -> 1563395 / 6000000
+13:39:33.751         |      quest Clan_Weekly_Quest_Damage_4: 1532256 / 10000000 -> 1563395 / 10000000
+13:39:33.751         |      quest Clan_Weekly_Quest_Damage_5: 1532256 / 15000000 -> 1563395 / 15000000
+13:39:34.048         | Quest_Completed callback. questName = 'BattlePass2023_01_daily_q05'
+13:39:40.505         | client: player 2 leave game
+13:39:45.680         | client: avgPing 47.6/52.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+13:39:45.680         | client: connection closed. CLIENT_QUIT
+13:39:45.680         | Network stats (bytes per second): avg pushed 2771, max pushed 3241, avg sent 4757, max sent 5537, avg received 12456, max received 19377
+13:39:45.962         | ====== starting level 38: 'levels/maps/hangar'  single Empty,env=394058 ======
+13:39:45.962         | {
+13:39:45.962         | 	"is_hangar": 1
+13:39:45.962         | }
+13:39:46.846         | ====== level started:  'hangar' ======
+13:50:29.891         | Stored mission name: MMachinegun_Arcade
+13:50:29.891         | StartMatchmaking: 'solo', mission 'MMachinegun_Arcade', region 'UNKNOWN'
+13:50:30.545         | Stored mission name: MMachinegun_Arcade
+13:50:31.045         | Matchmaker_NotifyQueueState: 20 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:34.770         | Matchmaker_NotifyQueueState: 27 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:38.711         | Matchmaker_NotifyQueueState: 23 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:41.744         | Matchmaker_NotifyQueueState: 19 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:45.694         | Matchmaker_NotifyQueueState: 30 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:48.737         | Matchmaker_NotifyQueueState: 17 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:52.754         | Matchmaker_NotifyQueueState: 31 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:56.729         | Matchmaker_NotifyQueueState: 22 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:50:59.754         | Matchmaker_NotifyQueueState: 24 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:03.703         | Matchmaker_NotifyQueueState: 23 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:06.721         | Matchmaker_NotifyQueueState: 22 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:09.745         | Matchmaker_NotifyQueueState: 30 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:12.753         | Matchmaker_NotifyQueueState: 21 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:16.777         | Matchmaker_NotifyQueueState: 28 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:20.745         | Matchmaker_NotifyQueueState: 15 avg queue time sec, queueTag: QArcadeGameplay, inQueue: true
+13:51:24.644         | CL_MatchMaker::ConnectHandler: addr = 130.193.42.245:35033, gsid = 605647953
+13:51:24.686         | client: start connecting to 130.193.42.245:35033...
+13:51:24.745         | Matchmaker_NotifyQueueState: 23 avg queue time sec, queueTag: QArcadeGameplay, inQueue: false
+13:51:24.861         | client: connected to 130.193.42.245|35033, server guid '1728042680922056', client guid '441353450903242024', setting up session...
+13:51:24.936         | client: connected to dedicated server. gsid: 605647953, hostname: 'wheel05-ya-ru.pxo'
+13:51:25.037         | Client has compatible version (2.19.10.291632), but it's different from 2.19.10.292315
+13:51:25.037         | client: server assigned id 2
+13:51:25.045         | client: got level load message 'levels/maps/vulkan' ArcadeGameplay, levelId: 1
+13:51:25.120         | ====== starting level 39: 'levels/maps/vulkan' ArcadeGameplay client Empty,env=157580 ======
+13:51:25.120         | {
+13:51:25.120         | 	"minUR": 4414
+13:51:25.120         | 	"maxUR": 4715
+13:51:25.120         | 	"queueTag": QArcadeGameplay
+13:51:25.120         | 	"fixedMMValue": 0
+13:51:25.120         | 	"singleSlotSettings": CarsAndHelicopters_6x6
+13:51:25.120         | }
+13:51:29.153         | client: send ready message
+13:51:29.231         | client: ADD_PLAYER  0         Diklaf0S, uid 3803405 status Reserved team 1
+13:51:29.231         | client: ADD_PLAYER  1            dezep, uid 13629168 status   Active team 1
+13:51:29.305         | client: ADD_PLAYER  2          RDSF0R_, uid 9097886 status Reserved team 2
+13:51:29.305         | client: ADD_PLAYER  3 XxX_crazzy_wolf_XEX, uid 13449640 status   Active team 2
+13:51:29.305         | client: ADD_PLAYER  4 ЯКабанчик, uid 1109405 status   Active team 1
+13:51:29.359         | client: ADD_PLAYER  5       Alkonavt06, uid 4905529 status   Active team 2
+13:51:29.359         | client: ADD_PLAYER 20           Ashley, uid 0 status   Active team 1
+13:51:29.359         | client: ADD_PLAYER 21            Ethan, uid 0 status   Active team 2
+13:51:29.377         | client: ADD_PLAYER 22           Steven, uid 0 status   Active team 2
+13:51:29.377         | client: ADD_PLAYER 23           Oliver, uid 0 status   Active team 1
+13:51:29.412         | client: ADD_PLAYER 24          Matthew, uid 0 status   Active team 2
+13:51:29.412         | client: ADD_PLAYER 25           George, uid 0 status   Active team 1
+13:51:29.413         | client: UPDATE_PLAYER  2          RDSF0R_, uid 9097886 status   Active team 2
+13:51:29.622         | client: got init message. ping 54, MTU 1350
+13:51:29.623         | client: UPDATE_PLAYER  0         Diklaf0S, uid 3803405 status   Active team 1
+13:51:29.629         | ====== level started:  'vulkan' ======
+13:51:29.911  WARNING| frame 1454833: 118 ms spike
+13:52:31.129         | NotifyStripeEarned: 9097886@live, PvpAssist, 1
+13:52:42.270         | TargemServices: RenewAuth: new token = ntKKAAAAAAD8hYPMne7dLLN3e1eSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T11:52:42.388Z (drift of 0 sec)
+13:52:46.679         | NotifyStripeEarned: 9097886@live, PvpKillJoy, 1
+13:53:44.170         | NotifyStripeEarned: 9097886@live, PvpMachinegunVeryRareKill, 1
+13:54:01.370         | Quest_Completed callback. questName = 'Quest_damage_done_machineguns_shotguns_all_pvp_15000'
+13:54:01.370         | Quest_Completed callback. questName = 'Quest_earn_score_propellers_repeat_all_pvp_3_550'
+13:54:01.370         | Quest_Completed callback. questName = 'Quest_kill_arcade_5'
+13:54:01.379         | Gameplay statistic. gameResult 'defeat'
+13:54:01.379         |      Scrap_Common  38,  score 677, expBase 677, expDailyBonus 2.0, expTotal 2538, expBaseFactionTotal 2538, expFactionTotal 2538
+13:54:01.379         |      quest Quest_kill_machineguns_cannons_all_pvp_15: 0 / 15 -> 6 / 15
+13:54:01.379         |      quest Quest_damage_done_machineguns_shotguns_all_pvp_15000: 9720 / 15000 -> 15000 / 15000
+13:54:01.379         |      quest Quest_earn_score_propellers_repeat_all_pvp_3_550: 2 / 3 -> 3 / 3
+13:54:01.379         |      quest Quest_kill_arcade_5: 0 / 5 -> 5 / 5
+13:54:01.379         |      quest Clan_Weekly_Quest_Damage_2: 1579142 / 2000000 -> 1585330 / 2000000
+13:54:01.379         |      quest Clan_Weekly_Quest_Damage_3: 1579142 / 6000000 -> 1585330 / 6000000
+13:54:01.380         |      quest Clan_Weekly_Quest_Damage_4: 1579142 / 10000000 -> 1585330 / 10000000
+13:54:01.380         |      quest Clan_Weekly_Quest_Damage_5: 1579142 / 15000000 -> 1585330 / 15000000
+13:54:03.320         | client: player 4 leave game
+13:54:07.570         | client: player 3 leave game
+13:54:08.179         | client: player 0 leave game
+13:54:11.337         | client: player 1 leave game
+13:54:14.162         | client: player 5 leave game
+13:54:17.070         | client: avgPing 53.8/59.0; avgPacketLoss 0.0/0.0%; avgSnapshotLoss 0.0/0.0%, MTU 1350
+13:54:17.070         | client: connection closed. CLIENT_QUIT
+13:54:17.070         | Network stats (bytes per second): avg pushed 2255, max pushed 3238, avg sent 4047, max sent 5473, avg received 14281, max received 22322
+13:54:17.378         | ====== starting level 40: 'levels/maps/hangar'  single Empty,env=394058 ======
+13:54:17.378         | {
+13:54:17.378         | 	"is_hangar": 1
+13:54:17.378         | }
+13:54:18.243         | ====== level started:  'hangar' ======
+13:55:11.994  WARNING| frame 1478712: 103 ms spike
+14:07:42.930         | TargemServices: RenewAuth: new token = ntKKAAAAAABfjl8eC279Uvg1iVeSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T12:07:43.066Z (drift of 0 sec)
+14:19:05.721  WARNING| frame 1500497: 159 ms spike
+14:22:43.564         | TargemServices: RenewAuth: new token = ntKKAAAAAADraMk0HqQWHv3zlleSAQAAIeYhVwRub25lBGxpdmU, server time 2024-10-04T12:22:43.679Z (drift of 0 sec)
+14:27:45.130         | Test drive started from Hangar
+14:31:07.887         | GameApp shutdown
+14:31:08.019         | TSConnectionManager::StateDISCONNECTING: reason 'client gentle quit'
+14:31:10.242         | [0x14:] async    0000020000556AF8 0000000000000000 
+14:31:10.242         | [0x8:] timer    00007FF6A4B5DC10 00007FF6A4B5DC08 
+14:31:10.242         | [0x2618c:I] tcp      00000200436A0630 00000200436A0010 ASC@00000200436A0010[ProtoTransport::Connect,0x602,fd 4294967295,0.0.0.0:0]
+14:31:10.242         | [0x2618c:I] tcp      00000200436A0E88 00000200436A0868 ASC@00000200436A0868[ProtoTransport::Connect,0x602,fd 4294967295,0.0.0.0:0]
+14:31:10.242         | [0x9:] poll     00000200436A0088 00000200436A0010 
+14:31:10.242         | [0x9:] poll     00000200436A08E0 00000200436A0868 
+14:31:10.243         | [0x14:] async    0000020000556AF8 0000000000000000 

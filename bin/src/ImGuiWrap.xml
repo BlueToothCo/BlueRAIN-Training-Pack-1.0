@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ImGuiWrap hinting="0" font_scaling="MainViewportDPI">
+  <Font name="Regular" size="16" />
+  <Font name="RegularH1" size="19" />
+  <Font name="RegularBold" size="16" />
+  <Font name="RegularItalic" size="16" />
+  <Font name="Tiny" size="12" />
+  <Font name="Mono" size="16" />
+  <Font name="Huge" size="28" />
+  <Font name="Icons" size="14" />
+  <DeveloperMenuToolkit />
+</ImGuiWrap>

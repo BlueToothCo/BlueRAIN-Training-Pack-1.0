@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Windows>
+  <MainWindow WindowMode="BorderlessFullscreen">
+    <PreFullscreen IsMaximized="false">
+      <ClientRect X="268" Y="291" Width="1904" Height="984" />
+    </PreFullscreen>
+    <Resolution Width="2560" Height="1440" />
+  </MainWindow>
+</Windows>

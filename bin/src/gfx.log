@@ -1,0 +1,179 @@
+09:33:11.248 00         | gfx: CreateDevice()                adapter="NVIDIA GeForce RTX 3070 Ti"
+09:33:11.249 00         | gfx: Adapter ids                   vendorId=0x10de deviceId=0x2482
+09:33:11.249 00         | gfx: Adapter driver date:             10.7.2024
+09:33:11.249 00         | gfx: Adapter driver version:          32.00.15.6070
+09:33:11.249 00         | gfx: Adapter dedicated video memory:  8406433792
+09:33:11.249 00         | gfx: Adapter dedicated system memory: 0
+09:33:11.249 00         | gfx: Adapter shared system memory:    17143953408
+09:33:11.327 00         | gfx: NvApi initialized. Interface version: NVidia Complete Version 1.10. Driver version: 56070. Build branch: r560_00
+09:33:12.712 00         | gfx: Driver features:
+09:33:12.712 00         | gfx: 	DriverConcurrentCreates: true
+09:33:12.712 00         | gfx: 	DriverCommandLists: true
+09:33:12.712 00         | gfx: 	MapNoOverwriteOnDynamicConstantBuffer: true
+09:33:12.712 00         | gfx: 	MapNoOverwriteOnDynamicSrv: true
+09:33:12.713 00         | gfx: Gpu counters activated
+09:33:12.713 00         | gfx: 
+09:33:12.713 00         | gfx: ------------ Autodetecting defaults ------------
+09:33:12.713 00         | gfx: OS: Windows 10 Pro 21H2 (10.0.22000.2538) x64
+09:33:12.713 00         | gfx: CPU: AMD Ryzen 5 3600 6-Core Processor              
+09:33:12.713 00         | gfx: CPU cores: 6
+09:33:12.713 00         | gfx: CPU threads: 12
+09:33:12.713 00         | gfx: RAM: 32699 MB
+09:33:12.713 00         | gfx: Memory Load: 45%
+09:33:12.713 00         | gfx:    Physical: 31.9 GB total, 14.5 GB used, 17.5 GB available
+09:33:12.713 00         | gfx:   Page File: 40.9 GB total, 28 GB used, 12.9 GB available
+09:33:12.713 00         | gfx: Log disk free space: 96.7 GB (20.32%)
+09:33:12.713 00         | gfx: GPU: NVIDIA GeForce RTX 3070 Ti
+09:33:12.713 00         | gfx: VRAM: 8017 MB
+09:33:12.713 00         | gfx: Feature level: 11_1
+09:33:12.713 00         | gfx: Auto-detected default graphics quality: [High]
+09:33:12.713 00         | gfx: ------------------------------------------------
+09:33:12.713 00         | gfx: 
+09:33:12.749 00         | gfx: CreateSwapChain(ModeDesc.Width = 1904, ModeDesc.Height = 984, BufferCount = 2, Flags = 0x802, SwapEffect = FlipSequential)
+09:33:12.791 00         | gfx: ChangeMode(DeviceMode(0, 0, 0, 0), BorderlessFullscreen, prevMode: Windowed)
+09:33:12.817 00         | gfx: OutputRect: {x: 0, y: 0, width: 2560, height: 1440}
+09:33:12.817 00         | gfx: WorkRect for reshape: {x: 0, y: 0, width: 2560, height: 1440, flags: 0}
+09:33:12.819 00         | gfx: Gpu temperature: 46
+09:33:12.819 00         | gfx: Gpu P-State: 0
+09:33:12.820 00         | gfx: ResizeBuffers(Width = 2560, Height = 1440, Flags = 0x802)
+09:33:14.692 00         | gfx: NVIDIA DLSS Minimum driver version was reported as : 445.0
+09:33:14.733 00         | gfx: Main view color buffer size changed to: {width: 2560, height: 1440}
+09:33:26.888 57         | gfx: Gpu temperature: 45
+09:33:26.888 57         | gfx: Gpu P-State: 3
+09:33:31.260 80         | gfx: Initial settings:
+    r_vsync = 1
+    MainView.RenderScale = 1
+    r_textureQuality = 2
+    r_anisoLevel = 8
+    car_skidmarks = 2
+    cl_debrisQuality = 3
+    cl_shellsQuality = 2
+    Client.LightsQuality = 1
+    Game.ImpactDecals = 1
+    g_lodDistanceFactor = 100
+    g_grassDensity = 1
+    MainView.GrassMaxDistance = 800
+    Client.PostEffectAntiAliasing = Disable
+    MainView.EnableShadows = 1
+    MainView.EnableShadowsFiltering = 1
+    MainView.ShadowMapResolution = 2048
+    MainView.LightsShadowsQuality = 3
+    MainView.SSAO = 2
+    Particles.RateFactorPreset = 2
+    Client.UltraLowQuality = 0
+    MainView.LightShaft = 3
+    MainView.FSR = 0
+    MainView.FSR.Sharpness = 0.2
+    MainView.TAA = 1
+    MainView.Sharpness = 2
+    MainView.CAS.Sharpness = 0.75
+    MainView.GI = 1
+    MainView.SSLR = 3
+    MainView.SSLR.Mode = 1
+    MainView.ContactShadows = 1
+    MainView.MotionBlur = 3
+    MainView.MotionBlur.Intensity = 0.31
+    MainView.PostProcessing.LensFlare = 1
+    MainView.PostProcessing.Vignetting = 1
+    MainView.DLSS.Mode = 1
+    MainView.DLSS.RegularSharpness = 1
+
+09:33:38.162 70         | gfx: Gpu temperature: 46
+09:33:38.162 70         | gfx: Gpu P-State: 3
+09:33:48.200 50         | gfx: Gpu temperature: 46
+09:33:48.200 50         | gfx: Gpu P-State: 5
+09:33:55.318 49         | gfx: Gpu temperature: 45
+09:33:55.318 49         | gfx: Gpu P-State: 8
+09:34:00.324 89         | gfx: Gpu temperature: 44
+09:34:00.324 89         | gfx: Gpu P-State: 8
+09:34:05.326 30         | gfx: Gpu temperature: 44
+09:34:05.326 30         | gfx: Gpu P-State: 8
+09:34:10.462 39         | gfx: Gpu temperature: 44
+09:34:10.462 39         | gfx: Gpu P-State: 8
+09:34:16.335 72         | gfx: Gpu temperature: 44
+09:34:16.335 72         | gfx: Gpu P-State: 8
+09:34:21.339 13         | gfx: Gpu temperature: 44
+09:34:21.339 13         | gfx: Gpu P-State: 8
+09:35:02.473 43         | gfx: Gpu temperature: 56
+09:35:02.473 43         | gfx: Gpu P-State: 2
+09:36:02.473 42         | gfx: Gpu temperature: 59
+09:36:02.473 42         | gfx: Gpu P-State: 0
+09:37:02.481 42         | gfx: Gpu temperature: 53
+09:37:02.481 42         | gfx: Gpu P-State: 0
+09:38:02.490 37         | gfx: Gpu temperature: 52
+09:38:02.490 37         | gfx: Gpu P-State: 0
+09:39:02.490 37         | gfx: Gpu temperature: 55
+09:39:02.490 37         | gfx: Gpu P-State: 0
+09:40:02.558 50         | gfx: Gpu temperature: 45
+09:40:02.558 50         | gfx: Gpu P-State: 3
+09:41:02.572 98         | gfx: Gpu temperature: 50
+09:41:02.572 98         | gfx: Gpu P-State: 0
+09:42:02.580 99         | gfx: Gpu temperature: 51
+09:42:02.580 99         | gfx: Gpu P-State: 0
+09:43:02.588 00         | gfx: Gpu temperature: 52
+09:43:02.588 00         | gfx: Gpu P-State: 0
+09:44:02.597 01         | gfx: Gpu temperature: 52
+09:44:02.597 01         | gfx: Gpu P-State: 0
+09:45:02.650 41         | gfx: Gpu temperature: 44
+09:45:02.650 41         | gfx: Gpu P-State: 3
+09:46:02.772 60         | gfx: Gpu temperature: 47
+09:46:02.772 60         | gfx: Gpu P-State: 5
+09:47:02.787 90         | gfx: Gpu temperature: 54
+09:47:02.787 90         | gfx: Gpu P-State: 0
+09:48:02.796 91         | gfx: Gpu temperature: 61
+09:48:02.796 91         | gfx: Gpu P-State: 0
+09:49:02.963 19         | gfx: Gpu temperature: 55
+09:49:02.963 19         | gfx: Gpu P-State: 0
+09:50:03.029 20         | gfx: Gpu temperature: 44
+09:50:03.029 20         | gfx: Gpu P-State: 3
+09:51:03.030 20         | gfx: Gpu temperature: 42
+09:51:03.030 20         | gfx: Gpu P-State: 3
+09:52:03.097 21         | gfx: Gpu temperature: 47
+09:52:03.098 21         | gfx: Gpu P-State: 3
+09:53:03.165 22         | gfx: Gpu temperature: 47
+09:53:03.165 22         | gfx: Gpu P-State: 5
+09:54:03.231 23         | gfx: Gpu temperature: 48
+09:54:03.231 23         | gfx: Gpu P-State: 5
+09:55:03.245 83         | gfx: Gpu temperature: 60
+09:55:03.245 83         | gfx: Gpu P-State: 0
+09:55:14.521 66         | gfx: Gpu temperature: 56
+09:55:14.521 66         | gfx: Gpu P-State: 5
+09:55:19.293 60         | gfx: Gpu temperature: 55
+09:55:19.293 60         | gfx: Gpu P-State: 8
+09:56:14.402 80         | gfx: Gpu temperature: 58
+09:56:14.403 80         | gfx: Gpu P-State: 0
+09:57:14.402 75         | gfx: Gpu temperature: 60
+09:57:14.403 75         | gfx: Gpu P-State: 0
+09:58:14.411 67         | gfx: Gpu temperature: 64
+09:58:14.411 67         | gfx: Gpu P-State: 0
+09:59:14.469 81         | gfx: Gpu temperature: 64
+09:59:14.469 81         | gfx: Gpu P-State: 0
+10:00:11.228 36         | gfx: Gpu temperature: 59
+10:00:11.228 36         | gfx: Gpu P-State: 0
+10:00:35.317 48         | gfx: Gpu temperature: 54
+10:00:35.317 48         | gfx: Gpu P-State: 3
+10:00:40.323 89         | gfx: Gpu temperature: 53
+10:00:40.323 89         | gfx: Gpu P-State: 3
+10:00:45.401 27         | gfx: Gpu temperature: 51
+10:00:45.401 27         | gfx: Gpu P-State: 3
+10:01:42.279 84         | gfx: Gpu temperature: 65
+10:01:42.279 84         | gfx: Gpu P-State: 0
+10:02:42.285 75         | gfx: Gpu temperature: 64
+10:02:42.286 75         | gfx: Gpu P-State: 0
+10:03:42.293 07         | gfx: Gpu temperature: 57
+10:03:42.293 07         | gfx: Gpu P-State: 0
+10:04:34.960 14         | gfx: Gpu temperature: 62
+10:04:34.960 14         | gfx: Gpu P-State: 0
+10:05:34.967 15         | gfx: Gpu temperature: 64
+10:05:34.968 15         | gfx: Gpu P-State: 0
+10:06:18.578 77         | gfx: Gpu temperature: 59
+10:06:18.578 77         | gfx: Gpu P-State: 0
+10:06:38.136 50   ERROR | gfx: DXGI_ERROR_DEVICE_REMOVED: The video card has been physically removed from the system, or a driver upgrade for the video card has occurred.The application should destroy and recreate the device.For help debugging the problem, call ID3D10Device::GetDeviceRemovedReason
+10:06:38.136 50   ERROR | gfx: Failed to create resource [Name: Scene/GrassSystem/WindMatrices; HeapType: kUpload_LegacyDx11; Desc: [Dimension: kBuffer; Width: 576; Height: 1; DepthOrArraySize: 1; DataFormat: kUnknown; MSAA: kNone; Bind: {kShaderResource}; Flags: {kNone}; StructureByteStride: 0;]]
+10:06:38.136 50   ERROR | gfx: Device removed, reason DXGI_ERROR_DEVICE_HUNG: The application's device failed due to badly formed commands sent by the application. This is an design-time issue that should be investigated and fixed
+10:06:38.136 50         | gfx: Driver threading features:
+	DriverConcurrentCreates: true
+	DriverCommandLists: true
+10:06:38.136 50         | gfx: Memory Load: 52%
+10:06:38.136 50         | gfx:    Physical: 31.9 GB total, 16.6 GB used, 15.3 GB available
+10:06:38.136 50         | gfx:   Page File: 40.9 GB total, 34.2 GB used, 6.8 GB available

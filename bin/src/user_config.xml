@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<UserConfig>
+  <CVars version="5">
+    <Client.License.LastSeenVersion val="1" />
+    <Client.PostEffectAntiAliasing val="Disable" />
+    <GameUI.LastWatchedAfterLoginVideo val="season24_03_teaser" />
+    <Helicopter.GamepadLayoutSync val="1" />
+    <MainView.FSR.Sharpness val="0.2" />
+    <MainView.GI val="1" />
+    <MainView.GrassMaxDistance val="800" />
+    <MainView.LightShaft val="3" />
+    <MainView.LightsShadowsQuality val="3" />
+    <MainView.MotionBlur val="3" />
+    <MainView.MotionBlur.Intensity val="0.31" />
+    <MainView.PostProcessing.LensFlare val="1" />
+    <MainView.SSAO val="2" />
+    <MainView.ShadowMapResolution val="2048" />
+    <MainView.TAA val="1" />
+    <Render.DynamicResolution.FrameTimeBudget val="120" />
+    <car_skidmarks val="2" />
+    <cl_debrisQuality val="3" />
+    <cl_hasSuccessfulLogin val="1" />
+    <cl_hudColorAlly val="69 163 255 255" />
+    <cl_hudColorEnemy val="255 50 50 255" />
+    <cl_hudColorEnemy2 val="216 62 255 255" />
+    <cl_hudColorMobCommon val="255 50 50 255" />
+    <cl_hudColorMobOfficer val="191 114 252 255" />
+    <cl_language val="russian" />
+    <cl_lastShownFestivalNotifications val="URAN_BATTLE_2024;2024-10-02T09:10:49Z;MAY9;2024-10-03T13:30:24Z" />
+    <cl_sentenceLang val="russian" />
+    <cl_shellsQuality val="2" />
+    <cl_skipStartupLogos val="1" />
+    <editor_showCMass val="0" />
+    <r_textureQuality val="2" />
+    <r_vsync val="1" />
+    <s_masterVolume val="0.24" />
+    <s_musicVolume val="0" />
+  </CVars>
+</UserConfig>
