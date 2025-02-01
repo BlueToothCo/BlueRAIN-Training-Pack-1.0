@@ -1,0 +1,79 @@
+name: Bluetooth™ Neural Enhancement System Build & Release
+
+on:
+  push:
+    branches:
+      - main  # Triggered on push to the 'main' branch
+  release:
+    types:
+      - created  # Triggered when a new release is created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Using Ubuntu for build
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Install Bluetooth™ dependencies
+      - name: Install Bluetooth™ dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libbluetooth-dev  # Install Bluetooth™ dependencies
+
+      # Step 3: Set up Rust
+      - name: Set up Rust
+        uses: actions/setup-rust@v1
+        with:
+          rust-version: '1.60.0'  # Specify the version of Rust to use
+
+      # Step 4: Build the project
+      - name: Build project
+        run: |
+          cargo build --release  # Build the project in release mode
+
+      # Step 5: Run tests (if any)
+      - name: Run tests
+        run: |
+          cargo test  # Run any tests that are available
+
+  release:
+    needs: build  # This job depends on the completion of the build job
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'created'
+
+    steps:
+      # Step 1: Checkout the repository again
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Build the release version of the project
+      - name: Build release version
+        run: |
+          cargo build --release  # Build the release version
+
+      # Step 3: Package the binaries into a tarball
+      - name: Package release binaries
+        run: |
+          mkdir release
+          cp target/release/* release/
+          tar -czf release.tar.gz -C release .
+
+      # Step 4: Upload release binaries
+      - name: Upload release binaries
+        uses: softprops/action-gh-release@v1
+        with:
+          files: release.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Step 5: Clean up workspace after the release
+  cleanup:
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Clean up workspace
+        run: |
+          rm -rf release  # Clean up any temporary files
